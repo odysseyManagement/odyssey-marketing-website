@@ -184,7 +184,8 @@ Version: 1.0
 
 .navbar-brand>img {
 	display: block;
-	height: 40px;
+	height: 100px;
+	margin: 20px;
 }
 
 .navbar-toggle {
@@ -2103,7 +2104,7 @@ nav.navbar.validnavs.brand-center {
 
 .nav-full-width.navbar .navbar-collapse.collapse a {
 	color: var(--color-paragraph);
-	text-transform: none;
+	text-transform: upper;
 }
 
 .bg-dark .nav-full-width.navbar .navbar-collapse.collapse a {
@@ -3625,7 +3626,7 @@ nav.navbar.validnavs.nav-full-width {
 	}
 }
 
-/* ============================================================== 
+/* ==============================================================
     # Megamnu CSS
 =================================================================== */
 nav.validnavs .dropdown.megamenu-fw {
@@ -4267,8 +4268,8 @@ nav.validnavs .dropdown.megamenu-fw .dropdown-menu {
 }
 
 
-/* ============================================================== 
-    # Video Play Button 
+/* ==============================================================
+    # Video Play Button
 =================================================================== */
 .video-button {
 	display: inline-block;

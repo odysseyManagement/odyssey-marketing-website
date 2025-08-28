@@ -1,8 +1,8 @@
 /* eslint-disable no-unused-vars */
+import { useState } from "react";
+import ModalVideo from "react-modal-video";
 import { Link } from "react-router-dom";
 import banner1 from "/assets/img/banner/1.jpg";
-import ModalVideo from "react-modal-video";
-import { useState } from "react";
 
 interface DataType {
     navbarPlacement?: string;
@@ -17,7 +17,7 @@ const MainMenu = ({ navbarPlacement, toggleSubMenu }: DataType) => {
         <>
             <ul className={`nav navbar-nav ${navbarPlacement ? navbarPlacement : ""}`} data-in="fadeInDown" data-out="fadeOutUp">
                 <li className="dropdown megamenu-fw megamenu-style-two column-three">
-                    <Link to="#" className="dropdown-toggle" data-toggle="dropdown" onClick={toggleSubMenu}>Home</Link>
+                    <Link to="#" className="dropdown-toggle" data-toggle="dropdown" onClick={toggleSubMenu}>About Us</Link>
                     <ul className="dropdown-menu megamenu-content" role="menu">
                         <li>
                             <div className="col-menu-wrap">
@@ -77,51 +77,9 @@ const MainMenu = ({ navbarPlacement, toggleSubMenu }: DataType) => {
                         </li>
                     </ul>
                 </li>
+
                 <li className="dropdown">
-                    <Link to="#" className="dropdown-toggle" data-toggle="dropdown" onClick={toggleSubMenu}>Pages</Link>
-                    <ul className="dropdown-menu">
-                        <li><Link to="/about-us">About Us</Link></li>
-                        <li><Link to="/about-2">About Style Two</Link></li>
-                        <li className="dropdown">
-                            <Link to="#" className="dropdown-toggle" data-toggle="dropdown" onClick={toggleSubMenu}> Team Members</Link>
-                            <ul className="dropdown-menu">
-                                <li><Link to="/team">Team Style One</Link></li>
-                                <li><Link to="/team-2">Team Style Two</Link></li>
-                                <li><Link to="/team-details/1">Team Details</Link></li>
-                            </ul>
-                        </li>
-                        <li className="dropdown">
-                            <Link to="#" className="dropdown-toggle" data-toggle="dropdown" onClick={toggleSubMenu}> Projects</Link>
-                            <ul className="dropdown-menu">
-                                <li><Link to="/project">Project Showcase</Link></li>
-                                <li><Link to="/project-2">Interactive Portfolio</Link></li>
-                                <li><Link to="/project-3">Showcase Carousel</Link></li>
-                                <li><Link to="/project-details/1">Project Details</Link></li>
-                            </ul>
-                        </li>
-                        <li><Link to="/contact-us">Contact Us</Link></li>
-                        <li><Link to="/faq">Faq</Link></li>
-                        <li><Link to="/not-found">Error Page</Link></li>
-                        <li className="dropdown">
-                            <Link to="#" className="dropdown-toggle" data-toggle="dropdown" onClick={toggleSubMenu}>Pages Light Version</Link>
-                            <ul className="dropdown-menu">
-                                <li><Link to="/about-us-light">About Us</Link></li>
-                                <li><Link to="/about-2-light">About Style Two</Link></li>
-                                <li><Link to="/team-light">Team Style One</Link></li>
-                                <li><Link to="/team-2-light">Team Style Two</Link></li>
-                                <li><Link to="/team-details-light/1">Team Details</Link></li>
-                                <li><Link to="/project-light">Project Showcase</Link></li>
-                                <li><Link to="/project-2-light">Interactive Portfolio</Link></li>
-                                <li><Link to="/project-3-light">Showcase Carousel</Link></li>
-                                <li><Link to="/project-details-light/1">Project Details</Link></li>
-                                <li><Link to="/contact-us-light">Contact Us</Link></li>
-                                <li><Link to="/faq-light">Faq</Link></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-                <li className="dropdown">
-                    <Link to="#" className="dropdown-toggle" data-toggle="dropdown" onClick={toggleSubMenu}>Services</Link>
+                    <Link to="#" className="dropdown-toggle" data-toggle="dropdown" onClick={toggleSubMenu}>Our Services</Link>
                     <ul className="dropdown-menu">
                         <li><Link to="/services">Service Version One</Link></li>
                         <li><Link to="/services-2">Service Version Two</Link></li>
@@ -144,7 +102,7 @@ const MainMenu = ({ navbarPlacement, toggleSubMenu }: DataType) => {
                     </ul>
                 </li>
                 <li className="dropdown">
-                    <Link to="#" className="dropdown-toggle" data-toggle="dropdown" onClick={toggleSubMenu}>Blog</Link>
+                    <Link to="#" className="dropdown-toggle" data-toggle="dropdown" onClick={toggleSubMenu}>Talent</Link>
                     <ul className="dropdown-menu">
                         <li><Link to="/blog-standard">Blog Standard</Link></li>
                         <li><Link to="/blog-with-sidebar">Blog With Sidebar</Link></li>
@@ -166,9 +124,31 @@ const MainMenu = ({ navbarPlacement, toggleSubMenu }: DataType) => {
                         </li>
                     </ul>
                 </li>
-                <li><Link to="/contact-us">contact</Link></li>
-            </ul>
 
+                  <li className="dropdown">
+                    <Link to="#" className="dropdown-toggle" data-toggle="dropdown" onClick={toggleSubMenu}>Resources</Link>
+                    <ul className="dropdown-menu">
+                        <li><Link to="/blog-standard">Blog Standard</Link></li>
+                        <li><Link to="/blog-with-sidebar">Blog With Sidebar</Link></li>
+                        <li><Link to="/blog-2-column">Blog Grid Two column</Link></li>
+                        <li><Link to="/blog-3-column">Blog Grid Three column</Link></li>
+                        <li><Link to="/blog-single/1">Blog Single</Link></li>
+                        <li><Link to="/blog-single-with-sidebar/1">Blog Single With Sidebar</Link></li>
+                        <li className="dropdown">
+                            <Link to="#" className="dropdown-toggle" data-toggle="dropdown" onClick={toggleSubMenu}>Blog Light Version</Link>
+                            <ul className="dropdown-menu">
+                                <li><Link to="/blog-standard-light">Blog Standard</Link></li>
+                                <li><Link to="/blog-with-sidebar-light">Blog With Sidebar</Link></li>
+                                <li><Link to="/blog-2-column-light">Blog Grid Two column</Link></li>
+                                <li><Link to="/blog-3-column-light">Blog Grid Three column</Link></li>
+                                <li><Link to="/blog-single-light/1">Blog Single</Link></li>
+                                <li><Link to="/blog-single-with-sidebar-light/1">Blog Single With Sidebar</Link>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
             <ModalVideo channel='youtube' isOpen={isOpen} videoId="35mvh-2oII8" onClose={() => setOpen(false)} />
         </>
     );

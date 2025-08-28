@@ -1,8 +1,8 @@
+import { Link } from "react-router-dom";
+import Animate from '../animation/Animate.js';
+import SplitText from "../animation/SplitText.jsx";
 import illustration5 from '/assets/img/illustration/5.png';
 import illustration8 from '/assets/img/illustration/8.png';
-import { Link } from "react-router-dom";
-import SplitText from "../animation/SplitText.jsx"
-import Animate from '../animation/Animate.js';
 
 const BannerV1 = () => {
     return (
@@ -24,7 +24,7 @@ const BannerV1 = () => {
                                             threshold={0.2}
                                             rootMargin="-50px"
                                         >
-                                            Designing
+                                            From Influence
                                         </SplitText>
                                     </h2>
 
@@ -37,7 +37,7 @@ const BannerV1 = () => {
                                             threshold={0.2}
                                             rootMargin="-50px"
                                         >
-                                            Creative
+                                             To Income
                                         </SplitText>
                                     </h2>
                                 </div>

@@ -1,17 +1,20 @@
 [
     {
         "id": 1,
-        "serviceName": "Social Media",
-        "count": "01"
+        "serviceName": "Social Media Growth",
+        "count": "01",
+        "desc": "We build audiences that actually convert into income."
     },
     {
         "id": 2,
-        "serviceName": "Content Writing",
-        "count": "02"
+        "serviceName": "Content Strategy & Creation",
+        "count": "02",
+        "desc": "We create content that resonates with your audience and drives engagement."
     },
     {
         "id": 3,
-        "serviceName": "Video Production",
-        "count": "03"
+        "serviceName": "Fan Engagement & Monetisation",
+        "count": "03",
+        "desc": "We help you engage your fans and monetise your content effectively."
     }
 ]

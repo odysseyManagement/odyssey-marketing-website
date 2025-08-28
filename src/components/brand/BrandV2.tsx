@@ -1,7 +1,6 @@
-import BrandV2Data from '../../../src/assets/jsonData/brand/BrandV2Data.json';
-import CountUp from 'react-countup';
-import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Keyboard, Pagination } from 'swiper/modules';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import BrandV2Data from '../../../src/assets/jsonData/brand/BrandV2Data.json';
 
 const BrandV2 = () => {
     return (
@@ -11,11 +10,11 @@ const BrandV2 = () => {
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="brand-heading">
-                                <h3>Thurusted by <CountUp end={200} enableScrollSpy />K+ customers</h3>
+                                <h3>As Featured In</h3>
                             </div>
                             <Swiper className="brand-carousel swiper"
                                 loop={true}
-                                slidesPerView={2}
+                                slidesPerView={4}
                                 spaceBetween={30}
                                 autoplay={true}
                                 pagination={{
@@ -38,7 +37,7 @@ const BrandV2 = () => {
                                 }}
                                 modules={[Pagination, Keyboard, Autoplay]}
                             >
-                                <div className="swiper-wrapper">
+                                <div className="swiper-wrapper text-center">
                                     {BrandV2Data.map(brand =>
                                         <SwiperSlide className="swiper-slide" key={brand.id}>
                                             <img src={`/assets/img/brand/${brand.thumb}`} alt="Thumb" width={380} height={80} />

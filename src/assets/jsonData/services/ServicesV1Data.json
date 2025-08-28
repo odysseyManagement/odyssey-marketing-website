@@ -1,50 +1,50 @@
 [
-    {
-        "id": 1,
-        "icon": "1.png",
-        "iconLight": "23.png",
-        "title": "Marketing & SEO Optimization",
-        "text": "Explained jas something an. Contrasted dissimilar get joy you instrument out reasonably. Again keeps at no meant stuff.",
-        "activeClass": ""
-    },
-    {
-        "id": 2,
-        "icon": "2.png",
-        "iconLight": "24.png",
-        "title": "Mobile App & Web Development",
-        "text": "Explained jas something an. Contrasted dissimilar get joy you instrument out reasonably. Again keeps at no meant stuff.",
-        "activeClass": "active"
-    },
-    {
-        "id": 3,
-        "icon": "3.png",
-        "iconLight": "25.png",
-        "title": "UI/UX Design from Professionals",
-        "text": "Explained jas something an. Contrasted dissimilar get joy you instrument out reasonably. Again keeps at no meant stuff.",
-        "activeClass": ""
-    },
-    {
-        "id": 4,
-        "icon": "4.png",
-        "iconLight": "26.png",
-        "title": "Access to the Latest Technology",
-        "text": "Explained jas something an. Contrasted dissimilar get joy you instrument out reasonably. Again keeps at no meant stuff.",
-        "activeClass": ""
-    },
-    {
-        "id": 5,
-        "icon": "1.png",
-        "iconLight": "23.png",
-        "title": "Marketing & SEO Optimization",
-        "text": "Explained jas something an. Contrasted dissimilar get joy you instrument out reasonably. Again keeps at no meant stuff.",
-        "activeClass": ""
-    },
-    {
-        "id": 6,
-        "icon": "2.png",
-        "iconLight": "24.png",
-        "title": "Mobile App & Web Development",
-        "text": "Explained jas something an. Contrasted dissimilar get joy you instrument out reasonably. Again keeps at no meant stuff.",
-        "activeClass": "active"
-    }
+  {
+    "id": 1,
+    "icon": "1.png",
+    "iconLight": "audit-light.png",
+    "title": "Account Audit & Market Research",
+    "text": "A deep dive into your socials and OnlyFans with competitor analysis and a personalised growth blueprint designed to accelerate your income.",
+    "activeClass": ""
+  },
+  {
+    "id": 2,
+    "icon": "2.png",
+    "iconLight": "brand-light.png",
+    "title": "Elite Brand & Growth Management",
+    "text": "From positioning to long-term growth campaigns, we turn your creativity into a premium brand with scalable systems for lasting success.",
+    "activeClass": "active"
+  },
+  {
+    "id": 3,
+    "icon": "3.png",
+    "iconLight": "coaching-light.png",
+    "title": "Coaching & Support Ecosystem",
+    "text": "24/7 expert support plus weekly coaching calls — ensuring you always know your next step and never face growth challenges alone.",
+    "activeClass": ""
+  },
+  {
+    "id": 4,
+    "icon": "4.png",
+    "iconLight": "chat-light.png",
+    "title": "24/7 Chatting Profit Maximisation",
+    "text": "Our professional team manages your DMs around the clock, increasing tips, PPV sales, and renewals while you focus on creating.",
+    "activeClass": ""
+  },
+  {
+    "id": 5,
+    "icon": "network.png",
+    "iconLight": "network-light.png",
+    "title": "Networking & Event Access",
+    "text": "We connect you with exclusive collabs, brands, and VIP events that elevate your profile and open doors to new opportunities.",
+    "activeClass": ""
+  },
+  {
+    "id": 6,
+    "icon": "content.png",
+    "iconLight": "content-light.png",
+    "title": "Content Creation & Optimisation",
+    "text": "From creative direction to editing and posting strategies, we make sure your content stands out, performs, and maximises earnings.",
+    "activeClass": ""
+  }
 ]

@@ -1,9 +1,9 @@
-import ServicesV6Data from '../../../src/assets/jsonData/services/ServicesV6Data.json';
-import SingleServiceV6 from './SingleServiceV6';
-import arrowLongRight from "/assets/img/icon/arrow-long-right.png"
-import SplitText from "../animation/SplitText.jsx"
 import { Link } from "react-router-dom";
+import ServicesV6Data from '../../../src/assets/jsonData/services/ServicesV6Data.json';
 import useItemMoveTopEffect from '../../hooks/useItemMoveTopEffect';
+import SplitText from "../animation/SplitText.jsx";
+import SingleServiceV6 from './SingleServiceV6';
+import arrowLongRight from "/assets/img/icon/arrow-long-right.png";
 
 const ServicesV6 = () => {
 

@@ -1,11 +1,9 @@
-import FooterSocial from '../social/FooterSocial';
-import logo from "/assets/img/logo.png"
-import logoLight from "/assets/img/logo-light.png"
 import { Link } from "react-router-dom";
-import SidebarMenu from './SidebarMenu';
+import useSidebarInfo from '../../hooks/useSidebarInfo';
 import useSidebarMenu from '../../hooks/useSidebarMenu';
 import useStickyMenu from '../../hooks/useStickyMenu';
-import useSidebarInfo from '../../hooks/useSidebarInfo';
+import MainMenu from "./MainMenu";
+import { default as logo, default as logoLight } from "/assets/img/logo.webp";
 
 const HeaderV2 = () => {
 
@@ -25,23 +23,28 @@ const HeaderV2 = () => {
                                 <Link className="navbar-brand" to="/">
                                         <img src={logoLight} className="logo" alt="Logo" />
                                         <img src={logo} className="logo-dark" alt="Logo" />
-                                  
+
                                 </Link>
                             </div>
                         </div>
-                        <div className="col-xl-7 col-lg-6">
+                        <div className="col-xl-6 col-lg-6">
                             <div className={`collapse navbar-collapse ${isOpen ? "show collapse-mobile" : "collapse-mobile"}`} id="navbar-menu">
                                 <div className="left-info">
-                                    <p><strong>Contact</strong> <a href="mailto:support@avrix.com">support@avrix.com</a></p>
-                                </div>
-                                <div className="right-info">
-                                    <ul>
-                                        <FooterSocial />
-                                    </ul>
+                            <MainMenu  navbarPlacement='navbar-center' />
                                 </div>
                             </div>
                         </div>
-                        <SidebarMenu openMenu={openMenu} isInfoOpen={isInfoOpen} openInfoBar={openInfoBar} closeInfoBar={closeInfoBar} />
+                        <div className="attr-right"  style={{ minWidth: "500px" }}>
+                            <div className="attr-nav flex">
+                                <ul>
+                                    <li className="button" style={{ minWidth: "200px" }}>
+                                        <Link to="/contact-us">Become A Model</Link>
+                                    </li><li className="button">
+                                        <Link to="/contact-us">Login</Link>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                     <div className={`overlay-screen ${isOpen ? "opened" : ""}`} onClick={closeMenu} />
                 </nav>
