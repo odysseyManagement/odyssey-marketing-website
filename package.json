@@ -11,12 +11,15 @@
   },
   "dependencies": {
     "@react-spring/web": "^10.0.1",
+    "@splidejs/react-splide": "^0.7.12",
     "animate.css": "^4.1.1",
     "bootstrap": "^5.3.7",
+    "framer-motion": "^12.23.13",
     "gsap": "^3.13.0",
     "jquery": "^3.7.1",
     "react": "^19.1.0",
     "react-circular-progressbar": "^2.2.0",
+    "react-country-flag": "^3.1.0",
     "react-countup": "^6.5.3",
     "react-dom": "^19.1.0",
     "react-helmet-async": "^2.0.5",
@@ -26,7 +29,7 @@
     "react-router-dom": "^7.6.2",
     "react-simple-scroll-up": "^0.2.3",
     "react-toastify": "^11.0.5",
-    "swiper": "^11.2.8"
+    "swiper": "^11.2.10"
   },
   "devDependencies": {
     "@eslint/js": "^9.29.0",

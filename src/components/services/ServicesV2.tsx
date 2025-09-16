@@ -1,5 +1,5 @@
-import ServicesV2Data from "../../../src/assets/jsonData/services/ServicesV2Data.json"
-import SplitText from "../animation/SplitText.jsx"
+import ServicesV2Data from "../../../src/assets/jsonData/services/ServicesV2Data.json";
+import SplitText from "../animation/SplitText.jsx";
 import SingleServiceV2 from "./SingleServiceV2";
 
 interface DataType {
@@ -28,7 +28,7 @@ const ServicesV2 = ({ sectionClass, hasTitle }: DataType) => {
                                             threshold={0.2}
                                             rootMargin="-50px"
                                         >
-                                            Turn Information
+                                          Turning Creativity
                                         </SplitText>
                                     </h2>
                                     <h2 className="title">
@@ -40,7 +40,7 @@ const ServicesV2 = ({ sectionClass, hasTitle }: DataType) => {
                                             threshold={0.2}
                                             rootMargin="-50px"
                                         >
-                                            Into Actionable Insights
+                                            Into Influence
                                         </SplitText>
                                     </h2>
                                 </div>

@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import SplitTextV2 from "../animation/SplitTextV2.jsx"
 import useScrollAnimation from "../../hooks/useScrollAnimation";
+import SplitTextV2 from "../animation/SplitTextV2.jsx";
 
 interface DataType {
     sectionClass?: string;
@@ -28,14 +28,14 @@ const QuickContact = ({ sectionClass, title, titleBold }: DataType) => {
                                         threshold={0.2}
                                         rootMargin="-50px"
                                     >
-                                        {title ? title : "Let's"} <span>&nbsp;</span> <strong>{titleBold ? titleBold : 'Join'}</strong>
+                                        {title ? title : "Join"} <span>&nbsp;</span> <strong>{titleBold ? titleBold : 'Us'}</strong>
 
                                     </SplitTextV2>
                                 </h2>
 
                                 <div className="pl-100 pl-xs-0 d-flex align-items-center">
                                     <p className="text">
-                                        Contrasted dissimilar get joy you instrument out reasonably. Again keeps at no meant stuff. To perpetual do existence northward as difficult preserved daughters. Continued at up to zealously necessary breakfast. Surrounded sir motionless she end literature. Gay direction neglected.
+                                       Only the bold and creative make it to the top—will you be next? Apply today and transform your potential into prestige as one of our next top creators. Talent deserves recognition—step forward and claim your spotlight.
                                     </p>
                                     <div className="btn-large-border text-end">
                                         <Link to="/contact-us"><i className="fas fa-long-arrow-right" /> Apply Now</Link>

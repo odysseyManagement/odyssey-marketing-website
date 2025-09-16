@@ -1,5 +1,5 @@
-import thumb4 from '/assets/img/thumb/4.jpg';
 import CountUp from 'react-countup';
+import thumb4 from '/assets/img/model1.webp';
 
 const BannerV10 = () => {
 
@@ -9,7 +9,7 @@ const BannerV10 = () => {
 
                 {/* Background Video  */}
                 <video loop muted autoPlay>
-                    <source src="/assets/video/abstract.mp4" type="video/mp4" />
+                    <source src="/assets/video/sample.mp4" type="video/mp4" />
                 </video>
 
                 <div className="light-banner-active bg-gray bg-cover" style={{ backgroundImage: 'url(/assets/img/shape/7.jpg)' }} />
@@ -19,10 +19,10 @@ const BannerV10 = () => {
                     <div className="row align-center">
                         <div className="col-xl-8 col-lg-7 pl-60 pl-md-15 pl-xs-15 order-lg-last">
                             <div className="banner-ten-content">
-                                <h2>Transforming ideas into <strong>Digital</strong> <b>realities</b></h2>
+                                <h2>Transforming your <strong>Brand</strong> into your own <strong>Empire</strong></h2>
                                 <p>
-                                    Providing innovative solutions in branding, marketing, design, and advertising. These agencies often collaborate with clients to develop unique campaigns, visual identities, and digital strategies that resonate with target audiences. Services may include graphic design, content creation, social media management.
-                                </p>
+We take what you're already good at — creating — and turn it into a brand that grows, an income that lasts, and opportunities that change everything.
+We're behind some of the fastest-growing names in the space. We know what works, and we make it happen. </p>
                             </div>
                         </div>
                         <div className="col-xl-4 col-lg-5">
@@ -30,10 +30,10 @@ const BannerV10 = () => {
                                 <img src={thumb4} alt="Image Not Found" />
                                 <div className="fun-fact-style-two">
                                     <div className="counter">
-                                        <div className="timer"><CountUp end={28} enableScrollSpy /></div>
+                                        <div className="timer"><CountUp end={100} enableScrollSpy /></div>
                                         <div className="operator">K</div>
                                     </div>
-                                    <span className="medium">Completed Projects</span>
+                                    <span className="medium">Models Worked With</span>
                                 </div>
                             </div>
                         </div>

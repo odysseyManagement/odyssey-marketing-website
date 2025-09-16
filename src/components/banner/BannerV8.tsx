@@ -81,9 +81,7 @@ const BannerV8 = () => {
 
 <p>We're behind some of the fastest-growing names in the space. We know what works, and we make it happen.
 </p>
-<p>
-Your job is to create. Ours is to make sure it takes you exactly where you want to go.
-            </p>
+
             <Link className="btn-animation mt-10" to="/about-2">
               <i className="fas fa-arrow-right" /> <span>Know More</span>
             </Link>

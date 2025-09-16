@@ -2,16 +2,15 @@ import { Helmet } from "react-helmet-async";
 import AboutV7 from "../../components/about/AboutV7";
 import CursorEffect from "../../components/animation/CursorEffect";
 import BannerV10 from "../../components/banner/BannerV10";
-import BlogV1 from "../../components/blog/BlogV1";
-import FunFactV1 from "../../components/fact/FunFactV1";
+import CityShowcase from "../../components/CityShowcase";
+import DarkClass from "../../components/classes/DarkClass";
+import QuickContact from "../../components/contact/QuickContact";
 import FooterV4 from "../../components/footer/FooterV4";
 import HeaderV6 from "../../components/header/HeaderV6";
-import PartnerV2 from "../../components/partner/PartnerV2";
-import PortfolioV2 from "../../components/portfolio/PortfolioV2";
 import ServicesV2 from "../../components/services/ServicesV2";
-import TestimonialV2 from "../../components/testimonial/TestimonialV2";
-import DarkClass from "../../components/classes/DarkClass";
 import ThemeDark from "../../components/switcher/ThemeDark";
+import TestimonialV3 from "../../components/testimonial/TestimonialV3";
+import TrioImageGrid from "../../components/TrioImageColumnsSwiper";
 
 const Home6 = () => {
     return (
@@ -24,12 +23,16 @@ const Home6 = () => {
                 <HeaderV6 />
                 <BannerV10 />
                 <AboutV7 sectionClass='bg-gray' />
-                <PartnerV2 />
+                <CityShowcase />
+                <TrioImageGrid/>
+                {/* <PartnerV2 /> */}
                 <ServicesV2 sectionClass='default-padding-top bg-gray' hasTitle={true} />
-                <PortfolioV2 sectionClass='default-padding' hasTitle={true} />
+                <TestimonialV3 />
+                <QuickContact sectionClass='bg-gray' />
+              {/*   <PortfolioV2 sectionClass='default-padding' hasTitle={true} />
                 <TestimonialV2 sectionClass='bg-gray' />
-                <FunFactV1 sectionClass='default-padding' />
-                <BlogV1 sectionClass='bg-gray' />
+                <FunFactV1 sectionClass='default-padding' /> */}
+             {/*    <BlogV1 sectionClass='bg-gray' /> */}
                 <CursorEffect />
                 <FooterV4 />
                 <DarkClass />

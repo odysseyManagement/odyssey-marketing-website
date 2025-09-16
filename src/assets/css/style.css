@@ -5477,7 +5477,7 @@ ul.list-style-two li:last-child {
 .banner-ten-content h2 {
 	font-size: 80px;
 	text-transform: uppercase;
-	margin-top: -15px;
+	margin-top: -10px;
 	position: relative;
 	z-index: 1;
 	overflow: hidden;
@@ -5489,12 +5489,14 @@ ul.list-style-two li:last-child {
 	position: relative;
 	z-index: 1;
 	padding: 0 10px;
+	margin-top: 10px;
 }
 
 .banner-ten-content h2 strong::after {
 	position: absolute;
 	left: 0;
 	bottom: -3px;
+
 	content: "";
 	height: 100%;
 	width: 100%;
@@ -7726,6 +7728,7 @@ ul.service-list li a:hover span {
     padding: 36px 24px;                  /* reduce padding to fit */
   }
 }
+
 
 /* Phones: single column stack */
 @media (max-width: 640px) {

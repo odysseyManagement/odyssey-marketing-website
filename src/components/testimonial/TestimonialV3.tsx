@@ -1,8 +1,8 @@
+import { Autoplay, Keyboard, Navigation, Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Keyboard, Pagination, Navigation } from 'swiper/modules';
-import TestimonialV3Data from "../../../src/assets/jsonData/testimonial/TestimonialV3Data.json"
-import shape14 from "/assets/img/shape/14.png";
+import TestimonialV3Data from "../../../src/assets/jsonData/testimonial/TestimonialV3Data.json";
 import SingleTestimonialV3 from "./SingleTestimonialV3";
+import shape14 from "/assets/img/shape/14.png";
 
 interface DataType {
     sectionClass?: string
@@ -15,29 +15,17 @@ const TestimonialV3 = ({ sectionClass }: DataType) => {
                 <div className="shape-style-one">
                     <img className="upDownScrol" src={shape14} alt="Image Not Found" />
                 </div>
+                    <div className="container mt-30 ">     </div>
                 <div className="container">
                     <div className="testimonial-heading">
                         <div className="row">
-                            <div className="col-lg-8">
-                                <h2 className="text-large-gradient">
-                                    Testimonials
+                            <div className="col-lg-12">
+                                <h2 className="text-large-gradient pb-4 pb-30">
+                                     Talent Showcase
                                 </h2>
+                                <br></br>
                             </div>
-                            <div className="col-lg-4 text-end">
-                                <div className="testimonial-three-quote">
-                                    <h2>4.9</h2>
-                                    <div className="info">
-                                        <div className="ratings">
-                                            <i className="fas fa-star" />
-                                            <i className="fas fa-star" />
-                                            <i className="fas fa-star" />
-                                            <i className="fas fa-star" />
-                                            <i className="fas fa-star" />
-                                        </div>
-                                        <span>145 (Review)</span>
-                                    </div>
-                                </div>
-                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -48,7 +36,10 @@ const TestimonialV3 = ({ sectionClass }: DataType) => {
                                 loop={true}
                                 slidesPerView={1}
                                 spaceBetween={30}
-                                autoplay={false}
+ autoplay={{
+                                delay: 3000, // 3s
+                                disableOnInteraction: false, // keeps autoplay after manual navigation
+                                }}
                                 pagination={{
                                     el: '.swiper-pagination',
                                     clickable: true,
@@ -59,11 +50,11 @@ const TestimonialV3 = ({ sectionClass }: DataType) => {
                                 }}
                                 breakpoints={{
                                     768: {
-                                        slidesPerView: 2,
+                                        slidesPerView: 4,
                                         spaceBetween: 30
                                     },
                                 }}
-                                modules={[Pagination, Navigation, Keyboard]}
+                                modules={[Pagination, Navigation, Keyboard, Autoplay]}
                             >
                                 <div className="swiper-wrapper">
                                     {TestimonialV3Data.map(testimonial =>

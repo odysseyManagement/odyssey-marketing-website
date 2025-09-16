@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import ServiceListData from "../../../src/assets/jsonData/services/ServiceListData.json";
 import useScrollAnimation from "../../hooks/useScrollAnimation";
 import ServiceList from "../services/ServiceList";
-import thumb2 from "/assets/img/65febde90e8860067f47eaa4_home_center-journey_img copy.webp";
+import thumb2 from "/assets/img/65febde90e8860067f47eaa4_home_center-journey_imgcopy.webp";
 import arrowIcon from "/assets/img/icon/arrow.png";
 
 interface DataType {

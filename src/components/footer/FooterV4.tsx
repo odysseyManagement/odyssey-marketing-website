@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 import NewsletterV2 from '../newsletter/NewsletterV2';
 import FooterSocial from '../social/FooterSocial';
-import logoLight from '/assets/img/logo-light.png'
-import logo from '/assets/img/logo.png'
+import logo from '/assets/img/logo-dark.webp';
+import logoLight from '/assets/img/logo-light.webp';
 
 interface DataType {
     sectionClass?: string
@@ -20,7 +20,7 @@ const FooterV4 = ({ sectionClass }: DataType) => {
                                     <img className="regular-img" src={logoLight} alt="Image Not Found" />
                                     <img className="light-img" src={logo} alt="Image Not Found" />
                                 </div>
-                                <ul className="address-list">
+                           {/*      <ul className="address-list">
                                     <li>
                                         <h4>Australia</h4>
                                         <p>
@@ -33,11 +33,11 @@ const FooterV4 = ({ sectionClass }: DataType) => {
                                             Sheikh Mohammed bin salah, #234 B - Downtown - Dubai
                                         </p>
                                     </li>
-                                </ul>
+                                </ul> */}
                                 <div className="footer-contact">
                                     <ul>
                                         <li>
-                                            <a href="mailto:someone@example.com">info@dixor.com</a>
+                                            <a href="mailto:info@odysseymangementgroup.com">info@odysseymangementgroup.com</a>
                                         </li>
                                         <li>
                                             <a href="tel:+4733378901">+47 333 78 901</a>
@@ -73,7 +73,7 @@ const FooterV4 = ({ sectionClass }: DataType) => {
                             </div>
                             <div className="col-lg-6 text-end">
                                 <p>
-                                    Copyright &copy; {(new Date().getFullYear())} Dixor. All Rights Reserved
+                                    Copyright &copy; {(new Date().getFullYear())} Odyssey Management Group. All Rights Reserved
                                 </p>
                             </div>
                         </div>

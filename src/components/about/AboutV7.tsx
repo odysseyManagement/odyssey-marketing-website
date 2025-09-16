@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
-import icon16 from "/assets/img/icon/16.png"
-import team10 from "/assets/img/team/10.jpg"
-import team11 from "/assets/img/team/11.jpg"
-import team12 from "/assets/img/team/12.jpg"
-import team13 from "/assets/img/team/13.jpg"
-import SplitText from "../animation/SplitText.jsx"
+import SplitText from "../animation/SplitText.jsx";
+import icon16 from "/assets/img/icon/16.png";
+import team10 from "/assets/img/team/10.jpg";
+import team11 from "/assets/img/team/11.jpg";
+import team12 from "/assets/img/team/12.jpg";
+import team13 from "/assets/img/team/13.jpg";
 
 interface DataType {
     sectionClass?: string
@@ -28,7 +28,7 @@ const AboutV7 = ({ sectionClass }: DataType) => {
                                             threshold={0.2}
                                             rootMargin="-50px"
                                         >
-                                            Building the right foundation of your business
+                                            Our mission is simple: help you live your dream life.
                                         </SplitText>
                                     </h2>
                                     <Link className="btn-animation mt-10" to="/about-2">
@@ -40,17 +40,29 @@ const AboutV7 = ({ sectionClass }: DataType) => {
                                 <div className="about-style-seven-info">
                                     <div className="d-grid">
                                         <div className="left">
-                                            <ul className="list-style-one">
+
+                                            <p>Travel the world. Live your best life. Become one of the most loved influencers in the world.</p>
+                                           <br />
+                                            <p>
+                                                Whether that means building a powerful personal brand, multiplying your income, or gaining worldwide recognition, Odyssey is your partner every step of the way.
+                                            </p>
+
+                                              <ul className="list-style-one mt-4">
                                                 <li>
-                                                    <strong>Work</strong> info@dexus.com
+                                                    <strong>Content Strategy & Brand Building</strong>
                                                 </li>
                                                 <li>
-                                                    <strong>Company</strong> (+012)47 333 78 901
+                                                    <strong>24/7 Account Management</strong>
+                                                </li>
+
+                                                  <li>
+                                                    <strong>Global Networking</strong>
+                                                </li>
+
+                                                  <li>
+                                                    <strong>Lifestyle Support</strong>
                                                 </li>
                                             </ul>
-                                            <p>
-                                                Give lady of they such they sure it. Me contained explained my education. Vulgar as hearts by garret. Perceived determine departure explained no forfeite. Give lady of they such they sure it. Me contained explained my education. Vulgar as hearts by garret. Perceived determine departure explained no forfeited he something an
-                                            </p>
                                         </div>
                                         <div className="award-style-one">
                                             <div className="top">
