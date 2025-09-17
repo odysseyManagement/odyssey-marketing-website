@@ -1,7 +1,7 @@
-import SplitText from "../animation/SplitText.jsx";
-import PriceV1Data from "../../assets/jsonData/price/PriceV1Data.json"
-import SinglePriceV1 from "./SinglePriceV1.js";
 import { useState } from "react";
+import PriceV1Data from "../../assets/jsonData/price/PriceV1Data.json";
+import SplitText from "../animation/SplitText.jsx";
+import SinglePriceV1 from "./SinglePriceV1.js";
 
 interface DataType {
     sectionClass?: string
@@ -26,7 +26,6 @@ const PriceV1 = ({ sectionClass }: DataType) => {
                     <div className="row">
                         <div className="col-xl-6 offset-xl-3 col-lg-8 offset-lg-2">
                             <div className="site-heading text-center">
-                                <h4 className="sub-title">Best Pricing</h4>
                                 <h2 className="title split-text">
                                     <SplitText
                                         delay={40}
@@ -36,7 +35,7 @@ const PriceV1 = ({ sectionClass }: DataType) => {
                                         threshold={0.2}
                                         rootMargin="-50px"
                                     >
-                                        The best pricing plans to get your best rate
+                                        Why Not Join Us?
                                     </SplitText>
                                 </h2>
                             </div>

@@ -1,26 +1,36 @@
+import { Helmet } from "react-helmet-async";
 import { useParams } from "react-router-dom";
+import ServicesV1Data from "../../../src/assets/jsonData/services/ServicesV1Data.json";
 import Breadcrumb from "../../components/breadcrumb/Breadcrumb";
 import DarkClass from "../../components/classes/DarkClass";
+import QuickContact from "../../components/contact/QuickContact";
 import LayoutV1 from "../../components/layouts/LayoutV1";
 import ServiceDetailsContent from "../../components/services/ServiceDetailsContent";
-import ServicesV1Data from "../../../src/assets/jsonData/services/ServicesV1Data.json"
-import { Helmet } from "react-helmet-async";
 import ThemeDark from "../../components/switcher/ThemeDark";
 
 const ServiceDetailsPage = () => {
+    const { slug } = useParams();
+    const data = ServicesV1Data.find((service) => service.slug === slug);
 
-    const { id } = useParams();
-    const data = ServicesV1Data.find(service => service.id === parseInt(id || '0'));
-
+    if (!data) {
+    return (
+      <LayoutV1>
+        <Breadcrumb title="Service Not Found" breadCrumb="service-details" />
+        <p>Sorry, that service doesn’t exist.</p>
+      </LayoutV1>
+    );
+  }
     return (
         <>
             <Helmet>
-                <title>Dixor - Service Details</title>
+                <title>Odyssey | {data.title}</title>
             </Helmet>
 
             <LayoutV1>
-                <Breadcrumb title='Our Services' breadCrumb='service-details' />
-                {data && <ServiceDetailsContent serviceInfo={data} sectionClass='default-padding-bottom' />}
+                <Breadcrumb title={data.title} breadCrumb='service-details' />
+                {data && <ServiceDetailsContent pageData={data} sectionClass='default-padding-bottom' />}
+
+                  <QuickContact sectionClass="bg-gray" />
                 <DarkClass />
                 <ThemeDark />
             </LayoutV1>

@@ -1,8 +1,8 @@
-import { Swiper, SwiperSlide } from 'swiper/react';
 import { Keyboard } from 'swiper/modules';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import TeamV1Data from '../../../src/assets/jsonData/team/TeamV1Data.json';
 import SplitText from "../animation/SplitText.jsx";
 import SingleTeamV1 from './SingleTeamV1';
-import TeamV1Data from '../../../src/assets/jsonData/team/TeamV1Data.json';
 
 interface DataType {
     sectionClass?: string;
@@ -31,7 +31,7 @@ const TeamV1 = ({ sectionClass, hasTitle }: DataType) => {
                                                 threshold={0.2}
                                                 rootMargin="-50px"
                                             >
-                                                Turn Information Into Actionable Insights
+                                                Your Expert Team
                                             </SplitText>
                                         </h2>
                                     </div>

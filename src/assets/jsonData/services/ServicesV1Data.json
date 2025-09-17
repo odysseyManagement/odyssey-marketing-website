@@ -1,50 +1,863 @@
 [
   {
-    "id": 1,
+      "id": 1,
     "icon": "1.png",
+    "slug": "account-audit",
     "iconLight": "audit-light.png",
-    "title": "Account Audit & Market Research",
-    "text": "A deep dive into your socials and OnlyFans with competitor analysis and a personalised growth blueprint designed to accelerate your income.",
-    "activeClass": ""
+    "text": "We analyse your socials and OnlyFans in detail, benchmark you against competitors, and deliver a tailored growth roadmap built to boost your earnings fast.",
+    "activeClass": "",
+  "title": "OnlyFans Growth & Management",
+  "heroImage": "/assets/img/ms/audit.webp",
+  "intro": {
+    "leftColParagraphs": [
+      "Odyssey helps creators grow faster with less screen time. We handle promo, posting rhythms, and fan funnels so you can focus on content and your life.",
+      "Your brand stays yours. We provide strategy, systems, and a team that scales with you."
+    ],
+    "rightColParagraphs": [
+      "Privacy and control come first. We set clear boundaries and keep your identity secure.",
+      "Expect clear reporting, predictable growth, and support that feels human."
+    ],
+    "featureList": [
+      "Social media marketing",
+      "Search engine optimization (SEO)",
+      "Public Relations"
+    ]
   },
-  {
-    "id": 2,
-    "icon": "2.png",
-    "iconLight": "brand-light.png",
-    "title": "Elite Brand & Growth Management",
-    "text": "From positioning to long-term growth campaigns, we turn your creativity into a premium brand with scalable systems for lasting success.",
-    "activeClass": "active"
+  "process": [
+    { "number": "01", "title": "Project Research", "content": "We audit your brand, channels, and fan behavior to identify quick wins and long-term plays." },
+    { "number": "02", "title": "Best Concept", "content": "Positioning, offers, and content angles crafted for your voice — not a one-size-fits-all template." },
+    { "number": "03", "title": "Design Implement", "content": "We execute content calendars, promos, and funnels while you approve the highlights." },
+    { "number": "04", "title": "Final Result", "content": "Steady growth, higher ARPPU, and more free time — with analytics you actually understand." }
+  ],
+  "galleryImages": [
+    "/assets/img/ms/model.jpg",
+    "/assets/img/ms/images.jpeg"
+  ],
+  "faq": {
+    "heading": "Any questions? Find them here.",
+    "parentId": "faqAccordion",
+    "items": [
+      { "id": "One", "title": "Do I have to be online 24/7?", "content": "Nope. We handle the heavy lifting — posting, promos, and engagement — so you can touch grass 🌱.", "show": true },
+      { "id": "Two", "title": "Will I lose control of my page?", "content": "Never. You approve the plan and keep the keys. We just make growth easier." },
+      { "id": "Three", "title": "Is my identity safe?", "content": "Yes. We lock down your personal info and coach you on best practices to avoid leaks." }
+    ]
   },
-  {
-    "id": 3,
-    "icon": "3.png",
-    "iconLight": "coaching-light.png",
-    "title": "Coaching & Support Ecosystem",
-    "text": "24/7 expert support plus weekly coaching calls — ensuring you always know your next step and never face growth challenges alone.",
-    "activeClass": ""
+  "whatWeDo": {
+    "heading": "What we do",
+    "paragraphs": [
+      "We build and run your growth machine: content planning, multi-platform promotion, messaging systems, and high-intent funnels.",
+      "You get creative ideas, time back, and transparent revenue reports — without the burnout."
+    ]
   },
-  {
-    "id": 4,
-    "icon": "4.png",
-    "iconLight": "chat-light.png",
-    "title": "24/7 Chatting Profit Maximisation",
-    "text": "Our professional team manages your DMs around the clock, increasing tips, PPV sales, and renewals while you focus on creating.",
-    "activeClass": ""
+  "popularServicesLimit": 3
+},
+{
+  "id": 1,
+  "icon": "1.png",
+  "iconLight": "audit-light.png",
+  "slug": "market-research",
+  "title": "Market Research",
+  "text": "We dive deep into your niche, uncovering trends, audience behaviours, and competitor strategies to inform your content and marketing approach.",
+  "activeClass": "",
+  "heroImage": "/assets/img/ms/market.webp",
+  "intro": {
+    "leftColParagraphs": [
+      "Know exactly what your fans want before you hit record. We analyze your niche, pricing, promos, and top competitors so your next moves are smart (and profitable).",
+      "You’ll get clear actions, not a dusty PDF. Think: content themes that convert, offers that fans actually buy, and platforms worth your time."
+    ],
+    "rightColParagraphs": [
+      "We keep it creator-first: quick wins, easy-to-follow suggestions, and no corporate fluff.",
+      "Privacy-safe research only. No shady scraping or account risks."
+    ],
+    "featureList": [
+      "Niche & trend analysis",
+      "Competitor teardown",
+      "Audience personas & buying triggers",
+      "Pricing & offer benchmarks",
+      "Channel opportunity map (Reddit, TikTok, X, IG)"
+    ]
   },
-  {
-    "id": 5,
-    "icon": "network.png",
-    "iconLight": "network-light.png",
-    "title": "Networking & Event Access",
-    "text": "We connect you with exclusive collabs, brands, and VIP events that elevate your profile and open doors to new opportunities.",
-    "activeClass": ""
+  "process": [
+    {
+      "number": "01",
+      "title": "Discovery",
+      "content": "We align on goals, boundaries, and the kind of fans you want more of."
+    },
+    {
+      "number": "02",
+      "title": "Deep Dive",
+      "content": "We analyze trends, top creators, content angles, funnels, and pricing in your niche."
+    },
+    {
+      "number": "03",
+      "title": "Game Plan",
+      "content": "We turn insights into a simple 30–60 day plan: content themes, posting rhythm, offers, and promos."
+    },
+    {
+      "number": "04",
+      "title": "Kickoff & Iterate",
+      "content": "You implement (or we can), then we review results and refine to scale what’s working."
+    }
+  ],
+  "galleryImages": [
+    "/assets/img/ms/6713b902034dc4001ee49fa7.jpeg",
+    "/assets/img/ms/c859e9f0_0150_11ec_bdef_9838cd66df81.jpeg"
+  ],
+  "faq": {
+    "heading": "Market research, but make it useful.",
+    "parentId": "faqAccordion-market-research",
+    "items": [
+      {
+        "id": "One",
+        "title": "Is this just a long report I won’t read?",
+        "content": "Nope. You get a punchy plan with examples, scripts, and next steps — not a thesis.",
+        "show": true
+      },
+      {
+        "id": "Two",
+        "title": "Do you copy other creators?",
+        "content": "We study what works, then tailor it to your voice and boundaries. No clones, just smart inspiration."
+      },
+      {
+        "id": "Three",
+        "title": "Will this help me charge more?",
+        "content": "Usually, yes. We benchmark pricing, add value to your offers, and show where premium makes sense."
+      },
+      {
+        "id": "Four",
+        "title": "How fast until I see results?",
+        "content": "Many creators see lift within a few weeks as they adopt the new content angles, offers, and promos."
+      }
+    ]
   },
-  {
-    "id": 6,
-    "icon": "content.png",
-    "iconLight": "content-light.png",
-    "title": "Content Creation & Optimisation",
-    "text": "From creative direction to editing and posting strategies, we make sure your content stands out, performs, and maximises earnings.",
-    "activeClass": ""
-  }
+  "whatWeDo": {
+    "heading": "What we deliver",
+    "paragraphs": [
+      "A clear, creator-friendly plan: content themes, hooks, price points, and promo plays that match your niche.",
+      "Actionable dashboards and checklists so you can implement quickly — or hand it to our team to run."
+    ]
+  },
+  "popularServicesLimit": 3
+},
+{
+  "id": 2,
+  "icon": "2.png",
+  "iconLight": "brand-light.png",
+  "title": "Elite Branding",
+  "slug": "elite-branding",
+  "text": "We position you as a high-value creator with strategies, visuals, and systems designed for long-term brand recognition and sustainable success.",
+  "activeClass": "active",
+
+  "heroImage": "/assets/img/ms/branding.webp",
+  "intro": {
+    "leftColParagraphs": [
+      "Your brand is more than a logo — it’s how fans feel when they see your name. We shape a premium, consistent identity that lifts rates, renewals, and referrals.",
+      "From color palette to content tone, we make everything feel ‘you’ — polished, memorable, and easy to scale."
+    ],
+    "rightColParagraphs": [
+      "No cookie-cutter vibes. We build a style guide that fits your voice, boundaries, and goals.",
+      "You get brand assets, post templates, and a playbook so every platform looks on-point."
+    ],
+    "featureList": [
+      "Brand voice & persona",
+      "Visual identity & style guide",
+      "Bio/header/CTA optimization",
+      "Template packs (posts & stories)",
+      "Multi-platform consistency"
+    ]
+  },
+  "process": [
+    {
+      "number": "01",
+      "title": "Brand Audit",
+      "content": "We review your current look, voice, offers, and audience perceptions across platforms."
+    },
+    {
+      "number": "02",
+      "title": "Positioning",
+      "content": "We define your niche, value props, and premium angles so fans instantly ‘get’ you."
+    },
+    {
+      "number": "03",
+      "title": "Identity Build",
+      "content": "Fonts, colors, imagery rules, tone-of-voice, and ready-to-use templates."
+    },
+    {
+      "number": "04",
+      "title": "Rollout",
+      "content": "We update bios, banners, and link hubs — then equip you with a simple brand playbook."
+    }
+  ],
+  "galleryImages": [
+    "/assets/img/ms/6786c727b8ee23316128a30f_3.jpg",
+    "/assets/img/ms/fghuygf5.jpeg"
+  ],
+  "faq": {
+    "heading": "Branding, but zero cringe.",
+    "parentId": "faqAccordion-elite-branding",
+    "items": [
+      {
+        "id": "One",
+        "title": "Will this still feel like me?",
+        "content": "Absolutely. We dial up your best traits — we don’t turn you into someone else.",
+        "show": true
+      },
+      {
+        "id": "Two",
+        "title": "Do I have to post differently now?",
+        "content": "Only if you want to. We create easy templates so your current flow looks premium with minimal effort."
+      },
+      {
+        "id": "Three",
+        "title": "Can better branding really raise prices?",
+        "content": "Yes. Clear positioning and consistent visuals boost perceived value — which makes premium offers land."
+      },
+      {
+        "id": "Four",
+        "title": "Will you help update all my profiles?",
+        "content": "Yep. We can handle banners, bios, link hubs, and highlights for a smooth, on-brand rollout."
+      }
+    ]
+  },
+  "whatWeDo": {
+    "heading": "What you’ll walk away with",
+    "paragraphs": [
+      "A premium brand kit (voice, visuals, templates) and a positioning strategy that attracts higher-value fans.",
+      "A practical playbook to keep everything consistent — so every post looks pro without extra brain melt."
+    ]
+  },
+  "popularServicesLimit": 3
+},
+
+{
+  "id": 3,
+  "icon": "2.png",
+  "iconLight": "brand-light.png",
+  "title": "Growth Management",
+  "slug": "growth-management",
+  "text": "Ongoing campaigns, performance tracking, and expert optimisation — we handle your growth so you can focus on creating content.",
+  "activeClass": "active",
+
+  "heroImage": "/assets/img/ms/management.webp",
+  "intro": {
+    "leftColParagraphs": [
+      "Consistency beats luck. Our growth team runs campaigns that bring in new eyes daily while keeping your existing fans engaged and spending.",
+      "We don’t just promote — we track, test, and tweak so every week you’re getting smarter growth."
+    ],
+    "rightColParagraphs": [
+      "Less guesswork, more results. We handle promo, collabs, and funnel building while you stay focused on creating.",
+      "Transparent reporting means you’ll always know what’s working and where we’re scaling next."
+    ],
+    "featureList": [
+      "Daily promo campaigns",
+      "Performance tracking dashboards",
+      "Collaboration & cross-promo management",
+      "Content calendar & posting rhythm",
+      "Funnel optimisation"
+    ]
+  },
+  "process": [
+    {
+      "number": "01",
+      "title": "Audit & Baseline",
+      "content": "We review your content, funnels, and audience to benchmark your starting point."
+    },
+    {
+      "number": "02",
+      "title": "Strategy Design",
+      "content": "We map a growth path — including promos, content cadence, and upsell offers."
+    },
+    {
+      "number": "03",
+      "title": "Execution",
+      "content": "Our team manages posting, promos, and campaigns across your chosen platforms."
+    },
+    {
+      "number": "04",
+      "title": "Optimisation",
+      "content": "We analyse results, run A/B tests, and scale what’s working for continuous growth."
+    }
+  ],
+  "galleryImages": [
+    "/assets/img/ms/onlyfans-hilfe-anonym-tipps-geld-verdienen-manager-foto-bh-19-jahre-berlin-instagram-tiktok-promotion-mehr-fans.jpg",
+    "/assets/img/ms/only-fans-anoym-ohne-gesicht-no-face-bh.jpg"
+  ],
+  "faq": {
+    "heading": "Growth management questions? We got you.",
+    "parentId": "faqAccordion-growth-management",
+    "items": [
+      {
+        "id": "One",
+        "title": "Do I still need to promote myself?",
+        "content": "Nope. We handle daily promos, collabs, and funnels. You just approve and focus on content.",
+        "show": true
+      },
+      {
+        "id": "Two",
+        "title": "How soon will I see results?",
+        "content": "Most creators see noticeable lift within 30 days, with compounding results over 3–6 months."
+      },
+      {
+        "id": "Three",
+        "title": "What platforms do you manage growth on?",
+        "content": "We tailor to your niche but often run Reddit, TikTok, X (Twitter), and IG campaigns."
+      },
+      {
+        "id": "Four",
+        "title": "Will I understand the reports?",
+        "content": "Yes. We cut the jargon and give you clear, visual dashboards with weekly summaries."
+      }
+    ]
+  },
+  "whatWeDo": {
+    "heading": "What’s included",
+    "paragraphs": [
+      "An always-on growth engine: daily promos, collabs, and optimisation handled by experts.",
+      "Simple reporting and strategy sessions that keep you in control — without the daily grind."
+    ]
+  },
+  "popularServicesLimit": 3
+},
+{
+  "id": 4,
+  "icon": "3.png",
+  "iconLight": "coaching-light.png",
+  "title": "Creator Coaching",
+  "slug": "coaching",
+  "text": "Weekly coaching calls and round-the-clock support from industry experts, ensuring you always know the smartest next move.",
+  "activeClass": "",
+
+  "heroImage": "/assets/img/ms/coaching.webp",
+  "intro": {
+    "leftColParagraphs": [
+      "Success is easier with a guide. Our coaching gives you a direct line to experts who’ve scaled creators just like you.",
+      "From strategy tweaks to mindset shifts, we’ll keep you motivated, focused, and always moving in the right direction."
+    ],
+    "rightColParagraphs": [
+      "No generic advice — every session is tailored to your goals, boundaries, and brand.",
+      "We back up calls with chat support, so you’re never stuck wondering what to do next."
+    ],
+    "featureList": [
+      "Weekly 1:1 coaching calls",
+      "Unlimited chat support",
+      "Custom growth roadmaps",
+      "Content & pricing feedback",
+      "Accountability systems"
+    ]
+  },
+  "process": [
+    {
+      "number": "01",
+      "title": "Goal Setting",
+      "content": "We map out what success looks like for you — income targets, fan goals, or work-life balance."
+    },
+    {
+      "number": "02",
+      "title": "Weekly Coaching",
+      "content": "Live calls keep you on track with strategies, feedback, and troubleshooting."
+    },
+    {
+      "number": "03",
+      "title": "Ongoing Support",
+      "content": "Unlimited chat access means help is just a DM away whenever you hit a roadblock."
+    },
+    {
+      "number": "04",
+      "title": "Review & Adjust",
+      "content": "We track your progress, celebrate wins, and adapt your plan as your brand grows."
+    }
+  ],
+  "galleryImages": [
+    "/assets/img/ms/0_EXCLUSIVE-I-started-working-out-at-35-and-now-make-£500k-on-OnlyFans-Im-giving-other-women-hope.webp",
+    "/assets/img/ms/541610842_18527600128036572_2814819714235834204_nfull.webp"
+  ],
+  "faq": {
+    "heading": "Coaching FAQs",
+    "parentId": "faqAccordion-coaching",
+    "items": [
+      {
+        "id": "One",
+        "title": "What if I’m totally new?",
+        "content": "Perfect — we love helping beginners avoid rookie mistakes and grow faster.",
+        "show": true
+      },
+      {
+        "id": "Two",
+        "title": "Do I have to show up every week?",
+        "content": "No stress. Calls are weekly, but we’ll adapt to your schedule. You’ll still get chat support if you skip a week."
+      },
+      {
+        "id": "Three",
+        "title": "What do we talk about on calls?",
+        "content": "Anything that helps your growth — content, pricing, branding, promos, fan retention, mindset. You set the agenda."
+      },
+      {
+        "id": "Four",
+        "title": "Will this take a lot of my time?",
+        "content": "Not at all. One call per week plus quick chats is enough to keep you on track."
+      }
+    ]
+  },
+  "whatWeDo": {
+    "heading": "What you’ll gain",
+    "paragraphs": [
+      "Clarity, confidence, and a proven roadmap tailored to your journey as a creator.",
+      "Direct access to mentors who’ve been there — so you’re never guessing your next step."
+    ]
+  },
+  "popularServicesLimit": 3
+},
+
+{
+  "id": 5,
+  "icon": "3.png",
+  "iconLight": "coaching-light.png",
+  "title": "Support Network",
+  "slug": "support-ecosystem",
+  "text": "An ecosystem of mentors, managers, and peers dedicated to helping you overcome challenges and unlock new growth opportunities.",
+  "activeClass": "",
+
+  "heroImage": "/assets/img/ms/support.webp",
+  "intro": {
+    "leftColParagraphs": [
+      "You don’t have to build your career alone. With Odyssey’s Support Network, you’ll have mentors, managers, and like-minded peers backing you at every stage.",
+      "From late-night roadblocks to big wins, we make sure you always have someone in your corner who understands the creator journey."
+    ],
+    "rightColParagraphs": [
+      "Growth gets easier when you’re surrounded by people who’ve already done it.",
+      "Our ecosystem keeps you accountable, inspired, and connected."
+    ],
+    "featureList": [
+      "Dedicated manager guidance",
+      "Peer mastermind groups",
+      "Access to mentors & industry experts",
+      "Round-the-clock chat support",
+      "Exclusive community events"
+    ]
+  },
+  "process": [
+    {
+      "number": "01",
+      "title": "Onboarding",
+      "content": "We get to know you, your goals, and match you with the right mentors and groups."
+    },
+    {
+      "number": "02",
+      "title": "Connection",
+      "content": "You’re introduced to managers, peers, and coaches who align with your niche and style."
+    },
+    {
+      "number": "03",
+      "title": "Ongoing Support",
+      "content": "Daily chat, weekly check-ins, and access to a private community hub."
+    },
+    {
+      "number": "04",
+      "title": "Growth Together",
+      "content": "Learn from shared wins, avoid common mistakes, and push each other to higher levels."
+    }
+  ],
+  "galleryImages": [
+    "/assets/img/ms/shutterstock_558184222-min.jpg",
+    "/assets/img/ms/shutterstock_427841167-min.jpg"
+  ],
+  "faq": {
+    "heading": "Your support system, explained.",
+    "parentId": "faqAccordion-support-ecosystem",
+    "items": [
+      {
+        "id": "One",
+        "title": "What makes this different from coaching?",
+        "content": "Coaching is 1:1. The Support Network adds managers, mentors, and peers so you get multiple perspectives.",
+        "show": true
+      },
+      {
+        "id": "Two",
+        "title": "Do I have to be super active in the community?",
+        "content": "No pressure. You can engage as much or as little as you like — but most creators find it motivating."
+      },
+      {
+        "id": "Three",
+        "title": "Is this just group chat?",
+        "content": "No — you get structured support: managers, mastermind calls, and curated resources."
+      },
+      {
+        "id": "Four",
+        "title": "Can I connect with creators like me?",
+        "content": "Yes! We group peers by niche and stage so your network feels relevant and relatable."
+      }
+    ]
+  },
+  "whatWeDo": {
+    "heading": "What you’ll get",
+    "paragraphs": [
+      "A community that makes the creator journey less lonely — and more successful.",
+      "Guidance, connections, and inspiration from people who genuinely want to see you win."
+    ]
+  },
+  "popularServicesLimit": 3
+},
+
+{
+  "id": 6,
+  "icon": "4.png",
+  "iconLight": "chat-light.png",
+  "title": "24/7 Chat Management",
+  "slug": "chatting-profit-maximisation",
+  "text": "Our team manages your DMs around the clock — boosting PPV sales, tips, and renewals while freeing you to focus on content creation.",
+  "activeClass": "",
+
+  "heroImage": "/assets/img/ms/247.webp",
+  "intro": {
+    "leftColParagraphs": [
+      "Your DMs are where the money’s made — but they’re also a massive time sink. That’s why our trained team manages your inbox 24/7.",
+      "We reply as you, using your tone and boundaries, while strategically driving more sales, renewals, and fan satisfaction."
+    ],
+    "rightColParagraphs": [
+      "We don’t just answer messages — we turn conversations into revenue streams.",
+      "Daily reporting keeps you in the loop, so you know exactly what’s working without spending hours chatting."
+    ],
+    "featureList": [
+      "Round-the-clock fan messaging",
+      "On-brand conversation style",
+      "Upselling PPV content & bundles",
+      "Driving tips & renewals",
+      "Daily performance reports"
+    ]
+  },
+  "process": [
+    {
+      "number": "01",
+      "title": "Voice Setup",
+      "content": "We learn your tone, boundaries, and fan relationship style to create a brand voice guide."
+    },
+    {
+      "number": "02",
+      "title": "Inbox Takeover",
+      "content": "Our team manages your chats 24/7, ensuring no fan feels ignored."
+    },
+    {
+      "number": "03",
+      "title": "Monetisation",
+      "content": "We send upsells, PPV drops, and renewals naturally within conversations."
+    },
+    {
+      "number": "04",
+      "title": "Reporting & Optimisation",
+      "content": "You get daily dashboards and feedback while we refine scripts and strategies to maximise profit."
+    }
+  ],
+  "galleryImages": [
+    "/assets/img/ms/Screenshot 2025-09-17at16.27.57.png",
+    "/assets/img/ms/images(1).jpeg"
+  ],
+  "faq": {
+    "heading": "Chat management FAQs",
+    "parentId": "faqAccordion-chat-management",
+    "items": [
+      {
+        "id": "One",
+        "title": "Will fans know it’s not me?",
+        "content": "No — we study your voice and messaging style, so fans feel like they’re talking to you.",
+        "show": true
+      },
+      {
+        "id": "Two",
+        "title": "Isn’t it risky giving someone access?",
+        "content": "We use secure systems, strict NDAs, and account safety protocols. Your privacy and security come first."
+      },
+      {
+        "id": "Three",
+        "title": "Do you just spam upsells?",
+        "content": "Never. Our chats feel natural and relationship-focused. Upsells are placed strategically, not forcefully."
+      },
+      {
+        "id": "Four",
+        "title": "Can I still message fans myself?",
+        "content": "Of course. You can jump in whenever you want — we’ll handle the rest when you’re offline."
+      }
+    ]
+  },
+  "whatWeDo": {
+    "heading": "What you’ll gain",
+    "paragraphs": [
+      "A steady boost in PPV sales, tips, and renewals — without burning yourself out in the inbox.",
+      "More free time for content, life, and the parts of your business you actually enjoy."
+    ]
+  },
+  "popularServicesLimit": 3
+},
+
+{
+  "id": 7,
+  "icon": "network.png",
+  "iconLight": "network-light.png",
+  "title": "Premier Networking",
+  "slug": "networking",
+  "text": "Get plugged into high-value collaborations, brand deals, and connections that strengthen your reputation and multiply your reach.",
+  "activeClass": "",
+
+  "heroImage": "/assets/img/ms/networking.webp",
+  "intro": {
+    "leftColParagraphs": [
+      "Success in the creator world isn’t just what you know — it’s who you know. Our networking program plugs you into collaborations, shoutouts, and brand deals that actually move the needle.",
+      "We don’t throw you into random group chats. We build real, strategic connections that align with your goals, niche, and reputation."
+    ],
+    "rightColParagraphs": [
+      "From fellow creators to agencies and brands, we open doors that are hard to access alone.",
+      "You’ll save years of trial-and-error by tapping into our established network of vetted partners."
+    ],
+    "featureList": [
+      "Curated creator collabs",
+      "Brand deal introductions",
+      "Cross-promotion campaigns",
+      "Networking strategy sessions",
+      "Private industry events & groups"
+    ]
+  },
+  "process": [
+    {
+      "number": "01",
+      "title": "Assessment",
+      "content": "We define your networking goals — collabs, brand deals, or community credibility."
+    },
+    {
+      "number": "02",
+      "title": "Matchmaking",
+      "content": "We handpick creators, managers, and brands that fit your vibe and audience."
+    },
+    {
+      "number": "03",
+      "title": "Collaboration",
+      "content": "We set up introductions, co-promotions, or deal negotiations with your approval."
+    },
+    {
+      "number": "04",
+      "title": "Growth & Expansion",
+      "content": "We nurture ongoing relationships and open new doors as your reputation scales."
+    }
+  ],
+  "galleryImages": [
+    "/assets/img/ms/1000s.jpg",
+    "/assets/img/ms/GettyImages-1213877465.webp"
+  ],
+  "faq": {
+    "heading": "Networking FAQs",
+    "parentId": "faqAccordion-networking",
+    "items": [
+      {
+        "id": "One",
+        "title": "Will I be pushed into collabs I don’t want?",
+        "content": "Never. You approve every collab or brand opportunity — we only bring you options.",
+        "show": true
+      },
+      {
+        "id": "Two",
+        "title": "Do you focus on quality or quantity?",
+        "content": "Always quality. One strong collab beats ten random shoutouts."
+      },
+      {
+        "id": "Three",
+        "title": "Can this help me land brand deals?",
+        "content": "Yes — we actively introduce you to vetted brands and agencies looking to work with creators like you."
+      },
+      {
+        "id": "Four",
+        "title": "Is networking only for big creators?",
+        "content": "Not at all. Smaller creators benefit hugely from collabs and shared audiences. We find matches at every level."
+      }
+    ]
+  },
+  "whatWeDo": {
+    "heading": "What you’ll gain",
+    "paragraphs": [
+      "A curated network of creators, managers, and brands that accelerate your growth.",
+      "Confidence and credibility from being seen alongside other respected names in your niche."
+    ]
+  },
+  "popularServicesLimit": 3
+},
+
+{
+  "id": 8,
+  "icon": "network.png",
+  "iconLight": "network-light.png",
+  "title": "Exclusive Event Access",
+  "slug": "event-access",
+  "text": "We open doors to VIP events and elite spaces where you can build relationships, gain visibility, and elevate your creator profile.",
+  "activeClass": "",
+
+  "heroImage": "/assets/img/ms/vip.webp",
+  "intro": {
+    "leftColParagraphs": [
+      "The right room can change everything. We connect you to exclusive events, creator meetups, and industry mixers where opportunities naturally spark.",
+      "You’ll gain access to VIP spaces that boost your visibility, help you forge powerful connections, and position you as a leader in your niche."
+    ],
+    "rightColParagraphs": [
+      "No awkward wandering — we prepare you with intros, talking points, and strategies so you feel confident walking in.",
+      "Think red carpets, brand-hosted parties, and curated creator gatherings that would otherwise be out of reach."
+    ],
+    "featureList": [
+      "VIP event invitations",
+      "Private creator meetups",
+      "Brand activations & showcases",
+      "Speaking & panel opportunities",
+      "Personalized prep & intros"
+    ]
+  },
+  "process": [
+    {
+      "number": "01",
+      "title": "Event Scouting",
+      "content": "We identify the events, panels, and spaces where your presence will have the biggest impact."
+    },
+    {
+      "number": "02",
+      "title": "Access Granted",
+      "content": "We handle RSVPs, guest lists, and credentials so you’re on the right side of the velvet rope."
+    },
+    {
+      "number": "03",
+      "title": "Strategic Prep",
+      "content": "We coach you on who to meet, how to pitch yourself, and ways to maximise visibility."
+    },
+    {
+      "number": "04",
+      "title": "Network & Elevate",
+      "content": "You show up with confidence, connect with the right people, and leave with opportunities."
+    }
+  ],
+  "galleryImages": [
+    "/assets/img/ms/image_1652862564.jpeg",
+    "/assets/img/ms/maxresdefault.jpg"
+  ],
+  "faq": {
+    "heading": "Event Access FAQs",
+    "parentId": "faqAccordion-event-access",
+    "items": [
+      {
+        "id": "One",
+        "title": "What kinds of events do you get me into?",
+        "content": "From brand launch parties to exclusive creator retreats and industry summits, we match you with the events that grow your profile.",
+        "show": true
+      },
+      {
+        "id": "Two",
+        "title": "Do I need to pay for travel?",
+        "content": "Yes, you’ll cover your travel, but we often secure discounted rates or partial sponsorships for clients."
+      },
+      {
+        "id": "Three",
+        "title": "Will I feel out of place if I’m new?",
+        "content": "Not at all. We prep you in advance and connect you with peers so you walk in with confidence."
+      },
+      {
+        "id": "Four",
+        "title": "Can I bring a guest?",
+        "content": "In most cases, yes — plus-ones are allowed. We’ll confirm based on the specific event."
+      }
+    ]
+  },
+  "whatWeDo": {
+    "heading": "What you’ll gain",
+    "paragraphs": [
+      "Visibility and credibility that comes from being seen in the right rooms.",
+      "Connections with brands, managers, and creators who can open doors for your career."
+    ]
+  },
+  "popularServicesLimit": 3
+},
+
+
+
+{
+  "id": 9,
+  "icon": "content.png",
+  "iconLight": "content-light.png",
+  "title": "Ultimate Content Creation",
+  "slug": "ultimate-content-creation",
+  "text": "From creative direction to editing and posting schedules, we ensure your content is eye-catching, algorithm-friendly, and income-maximising.",
+  "activeClass": "",
+
+  "heroImage": "/assets/img/ms/onyl.webp",
+  "intro": {
+    "leftColParagraphs": [
+      "Content is king — but creating it can feel like a full-time job. With our Ultimate Content Creation service, you’ll never run out of ideas, angles, or polish.",
+      "We work with you on creative direction, editing, and distribution so your content doesn’t just look great — it drives fans, renewals, and sales."
+    ],
+    "rightColParagraphs": [
+      "Our job is to make sure your content stands out in crowded feeds while still feeling 100% like you.",
+      "We combine data-driven insights with creative flair to make every post a revenue opportunity."
+    ],
+    "featureList": [
+      "Creative direction & content planning",
+      "Professional editing & post-production",
+      "Posting schedules & automation",
+      "Trend monitoring & algorithm hacks",
+      "Revenue-focused content optimisation"
+    ]
+  },
+  "process": [
+    {
+      "number": "01",
+      "title": "Creative Brief",
+      "content": "We outline your style, tone, and themes to create a clear roadmap for content production."
+    },
+    {
+      "number": "02",
+      "title": "Content Production",
+      "content": "We guide shoots, edit footage, and help craft visuals that pop across platforms."
+    },
+    {
+      "number": "03",
+      "title": "Scheduling & Posting",
+      "content": "We manage your posting calendar so content goes out consistently when your fans are most active."
+    },
+    {
+      "number": "04",
+      "title": "Optimisation & Reporting",
+      "content": "We track performance, refine strategies, and double down on what’s working."
+    }
+  ],
+  "galleryImages": [
+    "/assets/img/ms/10-Best-Amateur-Porn-OnlyFans-Creators_-Top-Explicit-Content-Creators-on-OnlyFans-LAW.jpg",
+    "/assets/img/ms/673c8e1ad8f439d41f061e71_pexels-george-milton-6954220.webp"
+  ],
+  "faq": {
+    "heading": "Content creation FAQs",
+    "parentId": "faqAccordion-ultimate-content",
+    "items": [
+      {
+        "id": "One",
+        "title": "Do I still film the content myself?",
+        "content": "Yes — you’re the star. We make it easier with shot lists, creative briefs, and editing so filming feels effortless.",
+        "show": true
+      },
+      {
+        "id": "Two",
+        "title": "Can you edit all my videos?",
+        "content": "Absolutely. Our editors polish and optimise your content so it performs on any fan platform."
+      },
+      {
+        "id": "Three",
+        "title": "How do you know what will trend?",
+        "content": "We monitor trends daily across OnlyFans, TikTok, Reddit, and more — then tailor them to your brand."
+      },
+      {
+        "id": "Four",
+        "title": "Will I get a posting schedule?",
+        "content": "Yes — you’ll get a customised calendar that balances consistency with creativity."
+      }
+    ]
+  },
+  "whatWeDo": {
+    "heading": "What you’ll gain",
+    "paragraphs": [
+      "A content engine that runs smoothly — from ideas to editing to publishing — without the stress.",
+      "Consistent, polished posts that grow your fanbase and maximise your earnings."
+    ]
+  },
+  "popularServicesLimit": 3
+}
+
 ]

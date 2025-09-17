@@ -6,10 +6,11 @@ interface DataType {
     number: string;
     title: string;
     thumb: string;
+    slug: string;
 }
 
 const SingleServiceV5 = ({ service }: { service: DataType }) => {
-    const { id, number, title, thumb } = service;
+    const { id, number, title, thumb, slug } = service;
 
     const { handleMouseMove, handleMouseLeave } = useHoverEffect();
 
@@ -17,26 +18,18 @@ const SingleServiceV5 = ({ service }: { service: DataType }) => {
         <>
             <li>
                 <Link
-                    to={`/service-details/${id}`}
+                    to={`/services/${slug}`}
                     className="image-hover-item"
                     onMouseMove={handleMouseMove}
                     onMouseLeave={handleMouseLeave}
                 >
                     <div className="item-content">
                         <span>{number}</span>
-                        <Link to={`/service-details/${id}`}>
+                        <Link to={`/services/${slug}`}>
                             <h2>{title}</h2>
                         </Link>
                     </div>
-                    <div className="image-hover-wrapper">
-                        <img
-                            className="image-hover-placeholder"
-                            src={`/assets/img/portfolio/${thumb}`}
-                            alt="Image Not Found"
-                            width={600}
-                            height={600}
-                        />
-                    </div>
+
                 </Link>
             </li>
         </>

@@ -1,13 +1,13 @@
+import { Helmet } from "react-helmet-async";
 import { useParams } from "react-router-dom";
+import TeamV1Data from "../../../src/assets/jsonData/testimonial/TestimonialV3Data.json";
 import AchievementAward from "../../components/awards/AchievementAward";
 import Breadcrumb from "../../components/breadcrumb/Breadcrumb";
 import DarkClass from "../../components/classes/DarkClass";
+import QuickContact from "../../components/contact/QuickContact";
 import LayoutV1 from "../../components/layouts/LayoutV1";
-import TeamDetails from "../../components/team/TeamDetails";
-import TeamQualification from "../../components/team/TeamQualification";
-import TeamV1Data from "../../../src/assets/jsonData/team/TeamV1Data.json"
-import { Helmet } from "react-helmet-async";
 import ThemeDark from "../../components/switcher/ThemeDark";
+import TeamDetails from "../../components/team/TeamDetails";
 
 const TeamDetailsPage = () => {
 
@@ -21,10 +21,10 @@ const TeamDetailsPage = () => {
             </Helmet>
 
             <LayoutV1>
-                <Breadcrumb title='Team Details' breadCrumb='team-details' />
+                <Breadcrumb title={data.name} breadCrumb='team-details' />
                 {data && <TeamDetails teamInfo={data} sectionClass='default-padding-bottom' />}
                 <AchievementAward />
-                <TeamQualification />
+                <QuickContact  />
                 <DarkClass />
                 <ThemeDark />
             </LayoutV1>

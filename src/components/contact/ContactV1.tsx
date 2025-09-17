@@ -1,5 +1,4 @@
 import ContactForm from "../form/ContactForm";
-import SocialShareV2 from "../social/SocialShareV2";
 
 interface DataType {
     sectionClass?: string
@@ -12,7 +11,7 @@ const ContactV1 = ({ sectionClass }: DataType) => {
                 <div className="container">
                     <div className="contact-style-one-items">
                         <div className="row">
-                            <div className="col-tact-stye-one col-lg-4">
+                           {/*  <div className="col-tact-stye-one col-lg-4">
                                 <div className="contact-style-one-info">
                                     <ul className="contact-address">
                                         <li>
@@ -41,7 +40,7 @@ const ContactV1 = ({ sectionClass }: DataType) => {
                                         </li>
                                     </ul>
                                 </div>
-                            </div>
+                            </div> */}
                             <div className="col-tact-stye-one col-lg-7 offset-lg-1">
                                 <div className="contact-form-style-one">
                                     <h4 className="sub-title">Have Questions?</h4>

@@ -1,4 +1,3 @@
-import SocialShareV1 from "../social/SocialShareV1";
 import { Link } from "react-router-dom";
 
 interface DataType {
@@ -10,6 +9,8 @@ interface DataType {
     age?: string;
     email?: string;
     phone?: string;
+    countryCode?: string;
+    image?: string;
 }
 
 interface TeamDetailsProps {
@@ -18,7 +19,7 @@ interface TeamDetailsProps {
 }
 
 const TeamDetails = ({ teamInfo, sectionClass }: TeamDetailsProps) => {
-    const { thumb, name, designation, text, age, email, phone } = teamInfo
+    const { image, name, designation, text, age, email, phone, countryCode } = teamInfo
 
     return (
         <>
@@ -28,7 +29,7 @@ const TeamDetails = ({ teamInfo, sectionClass }: TeamDetailsProps) => {
                         <div className="row align-center">
                             <div className="col-xl-6 col-lg-5 left-info">
                                 <div className="thumb">
-                                    <img src={`/assets/img/team/${thumb}`} alt="Thumb" width={800} height={900} />
+                                    <img src={`${image}`} alt="Thumb" width={800} height={900} />
                                 </div>
                             </div>
                             <div className="col-xl-6 col-lg-7">
@@ -42,8 +43,8 @@ const TeamDetails = ({ teamInfo, sectionClass }: TeamDetailsProps) => {
                                             <p>{age} Years</p>
                                         </li>
                                         <li>
-                                            <strong>Location:</strong>
-                                            <p>Baird House, 15-17 St Cross St London EC1N 8UW</p>
+                                            <strong>Country:</strong>
+                                            <p>{countryCode}</p>
                                         </li>
                                         <li>
                                             <strong>Email:</strong>
@@ -56,12 +57,6 @@ const TeamDetails = ({ teamInfo, sectionClass }: TeamDetailsProps) => {
                                     </ul>
                                     <div className="social">
                                         <Link className="btn circle btn-sm btn-gradient animation" to="/contact-us">Contact Me</Link>
-                                        <div className="share-link">
-                                            <i className="fas fa-share-alt" />
-                                            <ul>
-                                                <SocialShareV1 />
-                                            </ul>
-                                        </div>
                                     </div>
                                 </div>
                             </div>

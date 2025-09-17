@@ -1,8 +1,8 @@
-import arrowLongRight from '/assets/img/icon/arrow-long-right.png';
 import { Link } from "react-router-dom";
-import TeamV3Data from "../../../src/assets/jsonData/team/TeamV3Data.json";
+import TeamV3Data from "../../../src/assets/jsonData/testimonial/TestimonialV3Data.json";
+import SplitText from "../animation/SplitText.jsx";
 import SingleTeamV3 from './SingleTeamV3';
-import SplitText from "../animation/SplitText.jsx"
+import arrowLongRight from '/assets/img/icon/arrow-long-right.png';
 
 interface DataType {
     hasTitle?: boolean;
@@ -48,11 +48,11 @@ const TeamV3 = ({ hasTitle, sectionClass }: DataType) => {
 
                 <div className="container-full">
                     <div className="row">
-                        {TeamV3Data.slice(0, 4).map(team =>
-                            <div className="col-xl-3 col-md-6 mb-30" key={team.id}>
-                                <SingleTeamV3 team={team} />
-                            </div>
-                        )}
+                 {TeamV3Data.map(team => (
+  <div className="col-xl-3 col-md-6 mb-30" key={team.id}>
+    <SingleTeamV3 team={team} />
+  </div>
+))}
                     </div>
                 </div>
             </div>

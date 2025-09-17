@@ -1,32 +1,20 @@
 [
     {
         "id": 1,
-        "category": "Tech",
-        "thumb": "2.png",
+        "category": "",
+        "thumb": "forbes.svg",
         "website": "access.org"
     },
     {
         "id": 2,
-        "category": "Solution",
-        "thumb": "3.png",
+        "category": "",
+        "thumb": "65f84a2dfb15a263461da74d_vendor3.svg",
         "website": "nexttech.it"
     },
     {
         "id": 3,
-        "category": "Brand",
-        "thumb": "4.png",
+        "category": "",
+        "thumb": "65f84a2dc994a55209ad8ce9_vendor2.svg",
         "website": "teamapt.tech"
-    },
-    {
-        "id": 4,
-        "category": "Tech",
-        "thumb": "5.png",
-        "website": "muaast.io"
-    },
-    {
-        "id": 5,
-        "category": "Design",
-        "thumb": "12.png",
-        "website": "wattse.com"
     }
 ]

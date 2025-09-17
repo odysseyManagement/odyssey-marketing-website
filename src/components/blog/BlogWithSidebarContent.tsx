@@ -1,3 +1,6 @@
+import { useEffect, useState } from 'react';
+import Pagination from 'react-paginate';
+import { useNavigate, useParams } from 'react-router-dom';
 import BlogData from '../../../src/assets/jsonData/blog/BlogData.json';
 import ArchiveWidget from '../widgets/ArchiveWidget';
 import CategoryWidget from '../widgets/CategoryWidget';
@@ -7,9 +10,6 @@ import RecentPostsWidget from '../widgets/RecentPostsWidget';
 import SearchWidget from '../widgets/SearchWidget';
 import TagsWidget from '../widgets/TagsWidget';
 import SingleBlogStandard from './SingleBlogStandard';
-import { useEffect, useState } from 'react';
-import Pagination from 'react-paginate';
-import { useNavigate, useParams } from 'react-router-dom';
 
 interface DataType {
     sectionClass?: string;
@@ -17,7 +17,7 @@ interface DataType {
 
 const BlogWithSidebarContent = ({ sectionClass }: DataType) => {
 
-    // Pagination 
+    // Pagination
     const navigate = useNavigate();
     const { page } = useParams<{ page?: string }>();
 
@@ -39,7 +39,7 @@ const BlogWithSidebarContent = ({ sectionClass }: DataType) => {
         setCurrentPage(selectedPage);
 
         // Update the URL dynamically
-        navigate(`/blog-with-sidebar?page=${selectedPage}`);
+        navigate(`/blog?page=${selectedPage}`);
 
         setTimeout(() => {
             window.scrollTo({ top: 0, behavior: 'smooth' });

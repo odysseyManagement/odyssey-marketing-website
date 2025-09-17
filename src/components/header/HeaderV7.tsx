@@ -3,8 +3,8 @@ import useSidebarMenu from "../../hooks/useSidebarMenu";
 import useStickyMenu from "../../hooks/useStickyMenu";
 import useSubMenuToggle from "../../hooks/useSubMenuToggle";
 import MainMenu from "./MainMenu";
-import logo from '/assets/img/logo.png';
-import logoLight from '/assets/img/logo.webp';
+import logo from '/assets/img/logo-dark.webp';
+import logoLight from '/assets/img/logo-light.webp';
 
 const HeaderV7 = () => {
 

@@ -1,9 +1,9 @@
-import { Swiper, SwiperSlide } from 'swiper/react';
-import thumb15 from "/assets/img/thumb/15.jpg";
-import PartnerV2Data from "../../../src/assets/jsonData/partner/PartnerV2Data.json"
-import SinglePartnerV2 from "./SinglePartnerV2";
 import { Keyboard } from 'swiper/modules';
-import SplitText from "../animation/SplitText.jsx"
+import { Swiper, SwiperSlide } from 'swiper/react';
+import PartnerV2Data from "../../../src/assets/jsonData/partner/PartnerV2Data.json";
+import SplitText from "../animation/SplitText.jsx";
+import SinglePartnerV2 from "./SinglePartnerV2";
+import thumb15 from "/assets/img/ms/22mag-onlyfans-web-promo-mediumSquareAt3X.jpg";
 
 interface DataType {
     sectionClass?: string
@@ -22,7 +22,7 @@ const PartnerV2 = ({ sectionClass }: DataType) => {
                         </div>
                         <div className="col-lg-6">
                             <div className="brand-style-two-items">
-                                <h4 className="sub-title">Our Partner</h4>
+                                <h4 className="sub-title">About Us</h4>
                                 <h2 className="title">
                                     <SplitText
                                         delay={100}
@@ -32,12 +32,11 @@ const PartnerV2 = ({ sectionClass }: DataType) => {
                                         threshold={0.2}
                                         rootMargin="-50px"
                                     >
-                                        Our Trusted Partner.
+                                        Your Trusted Partner.
                                     </SplitText>
                                 </h2>
                                 <p>
-                                    Perceived determine departure explained no forfeite. Give lady of they such they sure it. Me contained explained my education. Vulgar as hearts by garret. Perceived determine departure explained no forfeited he something an
-                                </p>
+We specialise in helping models grow their online presence, build loyal fanbases, and maximize earnings through OnlyFans and other social platforms. Our mission is to empower creators with the tools, strategies, and support they need to take their brand to the next level.                                </p>
                                 <Swiper className="brand-two-carousel swiper mt-60"
                                     loop={true}
                                     slidesPerView={1}

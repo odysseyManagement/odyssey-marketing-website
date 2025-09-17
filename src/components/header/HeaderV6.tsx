@@ -34,6 +34,16 @@ const HeaderV6 = () => {
                                 <i className="fa fa-times" />
                             </button>
                             <MainMenu toggleSubMenu={toggleSubMenu} navbarPlacement='navbar-center' />
+                              <div className="attr-right">
+                            <div className="attr-nav flex">
+                                <ul>
+                                    <li className="button">
+                                        <Link to="/contact-us">Get in touch</Link>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
                         </div>
                     </div>
                     <div className={`overlay-screen ${isOpen ? "opened" : ""}`} onClick={closeMenu} />

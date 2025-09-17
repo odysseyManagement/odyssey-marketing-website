@@ -35,28 +35,31 @@ const FooterV4 = ({ sectionClass }: DataType) => {
                                     </li>
                                 </ul> */}
                                 <div className="footer-contact">
+                                    <h4 className="widget-title">Odyssey Management Group</h4>
+                                    <p className="h5">
+                                        Transforming creators into global brands.
+          Odyssey provides world-class OnlyFans and influencer
+          management, helping talent grow income, influence,
+          and recognition across the globe.</p>
                                     <ul>
-                                        <li>
+                                       {/*  <li>
                                             <a href="mailto:info@odysseymangementgroup.com">info@odysseymangementgroup.com</a>
-                                        </li>
-                                        <li>
+                                        </li> */}
+                                      {/*   <li>
                                             <a href="tel:+4733378901">+47 333 78 901</a>
-                                        </li>
+                                        </li> */}
                                     </ul>
                                 </div>
 
                             </div>
                             <div className="col-lg-5 offset-lg-1 footer-item">
-                                <h4 className="widget-title">Useful Link</h4>
+                                <h4 className="widget-title">Useful Links</h4>
                                 <ul className="useful-link">
                                     <li><Link to="/about-us">About Us</Link></li>
                                     <li><Link to="/contact-us">Contact</Link></li>
                                     <li><Link to="/faq">FAQS</Link></li>
-                                    <li><Link to="/services">Services</Link></li>
-                                    <li><Link to="/about-2">Term & Conditions</Link></li>
-                                    <li><Link to="/about-us">Privacy Policy</Link></li>
-                                    <li><Link to="/about-2">Careers</Link></li>
-                                    <li><Link to="/contact-us">Help Desk</Link></li>
+                                    <li><Link to="/terms-and-conditions">Term & Conditions</Link></li>
+                                    <li><Link to="/privacy-policy">Privacy Policy</Link></li>
                                 </ul>
                                 <NewsletterV2 />
                             </div>

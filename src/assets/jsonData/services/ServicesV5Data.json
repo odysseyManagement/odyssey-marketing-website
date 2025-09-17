@@ -1,38 +1,75 @@
-[
-    {
+[{
         "id": 1,
         "number": "01",
-        "title": "Digital Marketing",
-        "thumb": "19.jpg"
+        "title": "Account Audit",
+        "thumb": "19.jpg",
+        "slug": "account-audit"
     },
     {
         "id": 2,
         "number": "02",
-        "title": "Design",
-        "thumb": "35.jpg"
+        "title": "Market Research",
+        "thumb": "19.jpg",
+        "slug": "market-research"
     },
     {
         "id": 3,
         "number": "03",
-        "title": "Branding Solutions",
-        "thumb": "21.jpg"
+        "title": "Elite Branding",
+        "thumb": "35.jpg",
+        "slug": "elite-branding"
     },
     {
         "id": 4,
         "number": "04",
-        "title": "Development",
-        "thumb": "33.jpg"
+        "title": "Growth Management",
+        "thumb": "21.jpg",
+        "slug": "growth-management"
     },
     {
         "id": 5,
         "number": "05",
-        "title": "Growth Tracking",
-        "thumb": "34.jpg"
+        "title": "Coaching",
+        "thumb": "33.jpg",
+        "slug": "coaching"
     },
     {
-        "id": 6,
+        "id": 5,
         "number": "06",
-        "title": "Consultant",
-        "thumb": "36.jpg"
+        "title": "Support",
+        "thumb": "33.jpg",
+        "slug": "support-ecosystem"
+
+    },
+    {
+        "id": 7,
+        "number": "07",
+        "title": "24/7 Chatting Max Profit",
+        "thumb": "34.jpg",
+        "slug": "chatting-profit-maximisation"
+    },
+    {
+        "id": 8,
+        "number": "08",
+        "title": "Premier Networking",
+        "thumb": "36.jpg",
+        "slug": "networking"
+    },
+    {
+        "id": 9,
+        "number": "09",
+        "title": "Exclusive Event Access",
+        "thumb": "36.jpg",
+        "slug": "event-access"
+    },
+    {
+        "id": 10,
+        "number": "10",
+        "title": "Ultimate Content Creation",
+        "thumb": "37.jpg",
+        "slug": "ultimate-content-creation"
     }
+
+
+
 ]

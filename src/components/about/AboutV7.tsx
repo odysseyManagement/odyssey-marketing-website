@@ -70,7 +70,7 @@ const AboutV7 = ({ sectionClass }: DataType) => {
                                                     <img src={icon16} alt="Image Not Found" />
                                                 </div>
                                                 <div className="info">
-                                                    <h4>Award winning creative digital agency</h4>
+                                                    <h4>Award winning onlyfans management agency</h4>
                                                 </div>
                                             </div>
                                             <div className="user-card-two">
