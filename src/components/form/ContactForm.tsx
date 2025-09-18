@@ -59,7 +59,7 @@ const ContactForm = () => {
         <div className="row">
           <div className="col-lg-12">
             <div className="form-group">
-              <input className="form-control" id="name" name="name" placeholder="Name" type="text" required autoComplete="off" />
+              <input className="form-control" id="name" name="name" placeholder="Name*" type="text" required autoComplete="off" />
               <span className="alert-error" />
             </div>
           </div>
@@ -74,7 +74,7 @@ const ContactForm = () => {
           </div>
           <div className="col-lg-6">
             <div className="form-group">
-              <input className="form-control no-arrows" id="phone" name="phone" placeholder="Phone" type="tel" required autoComplete="off" />
+              <input className="form-control no-arrows" id="phone" name="phone" placeholder="Phone*" type="tel" required autoComplete="off" />
               <span className="alert-error" />
             </div>
           </div>
@@ -83,7 +83,7 @@ const ContactForm = () => {
         <div className="row">
           <div className="col-lg-12">
             <div className="form-group comments">
-              <textarea className="form-control" id="comments" name="comments" placeholder="Tell Us About Project *" required autoComplete="off" />
+              <textarea className="form-control" id="comments" name="comments" placeholder="Tell Us About You *" required autoComplete="off" />
             </div>
           </div>
         </div>
