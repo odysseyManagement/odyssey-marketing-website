@@ -4,7 +4,9 @@ import path from 'path';
 import { SitemapStream, streamToPromise } from 'sitemap';
 
 // ✅ Import your services JSON (adjust the path if needed)
+import BlogV3Data from './src/assets/jsonData/blog/BlogV3Data.json' assert { type: 'json' };
 import ServicesV1Data from './src/assets/jsonData/services/ServicesV1Data.json' assert { type: 'json' };
+
 
 const siteUrl = 'https://www.odysseymanagementgroup.com'; // <-- change if needed
 const outDir = './public';
@@ -49,9 +51,14 @@ const serviceEntries = ServicesV1Data.map((service) => {
   return toEntry(`/services/${service.slug}`);
 });
 
+const blogEntries = BlogV3Data.map(p =>
+  toEntry(`/blog/${p.slug}`, { changefreq: 'weekly', priority: 0.7, lastmod: p.date })
+);
+
 const entries = [
   ...staticRoutes.map((r) => toEntry(r)),
-  ...serviceEntries,
+      ...serviceEntries,
+      ...blogEntries,
   // you can also add blogSlugs or talentIds here later
 ];
 

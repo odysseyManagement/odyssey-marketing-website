@@ -1,18 +1,87 @@
 [
-    {
-        "id": 1,
-        "date": "12 August, 2024",
-        "dateIcon": "far fa-calendar-alt",
-        "author": "Md Sohag",
-        "authorIcon": "far fa-user-circle",
-        "tag": "Burger",
-        "slug": "announcing-if-attachment-resolution-sentiments",
-        "title": "Announcing if attachment resolution sentiments.",
-        "text": "Bndulgence diminution so discovered mr apartments. Are off under folly death wrote cause her way spite. Plan upon yet way get cold spot its week. Almost do am or limits hearts. Resolve parties but why she shewing. She sang know now",
-        "btnText": "Read More",
-        "btnIcon": "fas fa-angle-right",
-        "thumbFull": "4-full.jpg",
-        "thumb": "4.jpg",
-        "animationDelay": "300ms"
-    }
+  {
+    "id": 1,
+    "date": "18 September, 2025",
+    "dateIcon": "far fa-calendar-alt",
+    "author": "Odyssey Team",
+    "authorIcon": "far fa-user-circle",
+    "tag": "Announcement",
+    "slug": "welcome-to-odyssey-management",
+    "title": "Welcome to Odyssey Management Group: Guiding Creators to New Heights",
+    "text": "Every creator’s journey is an odyssey — filled with ambition, challenges, and the pursuit of freedom. At Odyssey Management Group, we’re here to help creators focus on what they do best while we handle the strategy, growth, and management that fuels long-term success. In this first post, we share who we are, why we started, and what you can expect from our blog.",
+    "btnText": "Read More",
+    "btnIcon": "fas fa-angle-right",
+    "thumbFull": "r1_0_1919_1079_w1920_h1080_fmax.jpg",
+    "thumb": "r1_0_1919_1079_w1920_h1080_fmax.jpg",
+    "animationDelay": "300ms",
+    "tags": ["Announcement", "Creators", "Growth"],
+    "categories": ["Company News"],
+    "blocks": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Our Mission"
+      },
+      {
+        "type": "paragraph",
+        "text": "At Odyssey Management Group, our mission is simple: empower creators to unlock their full potential. We believe that creative freedom should never be limited by the challenges of marketing, analytics, or time-consuming admin work. That’s where we step in."
+      },
+      {
+        "type": "image",
+        "src": "/assets/img/ms/odyssey-team.jpg",
+        "alt": "Odyssey team collaborating",
+        "caption": "Behind the scenes with our management team"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Why We Started"
+      },
+      {
+        "type": "paragraph",
+        "text": "The digital creator economy is booming, but many talented individuals feel overwhelmed juggling production, audience engagement, and platform algorithms. We saw a gap: a management group that not only understands business but also respects the art of creation. Odyssey was born to bridge that gap."
+      },
+      {
+        "type": "quote",
+        "text": "Creators should focus on creating. Management should focus on everything else.",
+        "cite": "Odyssey Founders"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "What We Offer"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "Content strategy tailored to your niche",
+          "Audience growth and retention",
+          "Revenue optimization",
+          "Analytics and performance insights",
+          "Personalized brand development"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "By handling the behind-the-scenes work, we give creators back their most valuable asset: time. Time to innovate, rest, and explore new creative directions."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "What to Expect from This Blog"
+      },
+      {
+        "type": "paragraph",
+        "text": "This blog will be your resource hub — sharing industry insights, growth tips, creator spotlights, and transparent updates on our journey as a company. Whether you’re new to content creation or already established, our posts will provide strategies you can apply right away."
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "html",
+        "html": "<p><em>We’re excited to begin this journey with you. Stay tuned for our next post where we dive into the state of the creator economy in 2025.</em></p>"
+      }
+    ]
+  }
 ]

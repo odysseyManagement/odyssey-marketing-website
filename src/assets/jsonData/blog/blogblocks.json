@@ -1,0 +1,30 @@
+[
+{
+  "id": 1,
+  "date": "18 September, 2025",
+  "dateIcon": "far fa-calendar-alt",
+  "author": "Odyssey Team",
+  "authorIcon": "far fa-user-circle",
+  "tag": "Announcement",
+  "slug": "welcome-to-odyssey-management",
+  "title": "Welcome to Odyssey Management Group: Guiding Creators to New Heights",
+  "text": "Every creator’s journey is an odyssey — filled with ambition, challenges, and the pursuit of freedom. At Odyssey Management Group, we’re here to help OnlyFans creators focus on what they do best while we handle the strategy, growth, and management that fuels long-term success. In this first post, we share who we are, why we started, and what you can expect from our blog.",
+  "btnText": "Read More",
+  "btnIcon": "fas fa-angle-right",
+  "thumbFull": "r1_0_1919_1079_w1920_h1080_fmax.jpg",
+  "thumb": "r1_0_1919_1079_w1920_h1080_fmax.jpg",
+  "animationDelay": "300ms",
+   "tags": ["Announcement"],
+    "categories": ["Company News"],
+     "blocks": [
+    { "type": "heading", "level": 2, "text": "Overview" },
+    { "type": "paragraph", "text": "We scale k-NN using product quantization and IVF..." },
+    { "type": "image", "src": "/assets/img/ms/knn-diagram.png", "alt": "IVF-PQ diagram", "caption": "Index layout" },
+    { "type": "quote", "text": "Premature optimization is the root of all evil.", "cite": "Knuth" },
+    { "type": "list", "ordered": false, "items": ["IVF", "PQ", "Re-ranking"] },
+    { "type": "code", "lang": "ts", "code": "const k = 10; // neighbors" },
+    { "type": "divider" },
+    { "type": "html", "html": "<p><em>Advanced tuning</em> goes here.</p>" }
+  ]
+}
+]
