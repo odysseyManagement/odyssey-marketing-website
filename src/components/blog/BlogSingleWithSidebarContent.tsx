@@ -1,13 +1,8 @@
 import { Link } from "react-router-dom";
 import BlogV3Data from "../../../src/assets/jsonData/blog/BlogV3Data.json";
 import { ContentRenderer } from "../ContentRender";
-import ArchiveWidget from "../widgets/ArchiveWidget";
-import CategoryWidget from "../widgets/CategoryWidget";
-import FollowWidget from "../widgets/FollowWidget";
-import GalleryWidget from "../widgets/GalleryWidget";
 import RecentPostsWidget from "../widgets/RecentPostsWidget";
 import SearchWidget from "../widgets/SearchWidget";
-import TagsWidget from "../widgets/TagsWidget";
 
 interface DataType {
   id?: number;
@@ -187,11 +182,11 @@ const BlogSingleWithSidebarContent = ({
                 <aside>
                   <SearchWidget />
                   <RecentPostsWidget />
-                  <CategoryWidget />
+               {/*    <CategoryWidget />
                   <GalleryWidget />
                   <ArchiveWidget />
                   <FollowWidget />
-                  <TagsWidget />
+                  <TagsWidget /> */}
                 </aside>
               </div>
             </div>

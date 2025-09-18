@@ -2,12 +2,8 @@ import { useEffect, useState } from 'react';
 import Pagination from 'react-paginate';
 import { useNavigate, useParams } from 'react-router-dom';
 import BlogData from '../../../src/assets/jsonData/blog/BlogData.json';
-import ArchiveWidget from '../widgets/ArchiveWidget';
-import CategoryWidget from '../widgets/CategoryWidget';
-import GalleryWidget from '../widgets/GalleryWidget';
+import FollowWidget from '../widgets/FollowWidget';
 import RecentPostsWidget from '../widgets/RecentPostsWidget';
-import SearchWidget from '../widgets/SearchWidget';
-import TagsWidget from '../widgets/TagsWidget';
 import SingleBlogStandard from './SingleBlogStandard';
 
 interface DataType {
@@ -84,13 +80,15 @@ const BlogWithSidebarContent = ({ sectionClass }: DataType) => {
 
                             <div className="sidebar col-xl-4 col-lg-5 col-md-12 mt-md-50 mt-xs-50">
                                 <aside>
-                                    <SearchWidget />
                                     <RecentPostsWidget />
+                                    <FollowWidget />
+                                    {/*  <SearchWidget />
+
                                     <CategoryWidget />
                                     <GalleryWidget />
                                     <ArchiveWidget />
-                                   {/*  <FollowWidget /> */}
-                                    <TagsWidget />
+                                   <FollowWidget />
+                                    <TagsWidget />*/}
                                 </aside>
                             </div>
                         </div>

@@ -12,7 +12,7 @@ interface SingleRecentPostProps {
 }
 
 const SingleRecentPost: React.FC<SingleRecentPostProps> = ({ blog }) => {
-    const { id, thumb, title, date } = blog;
+    const { id, thumb, title, date, slug } = blog;
 
     const truncateString = (str: string): string => {
         if (str.length <= 47) {
@@ -26,15 +26,15 @@ const SingleRecentPost: React.FC<SingleRecentPostProps> = ({ blog }) => {
     return (
         <li>
             <div className="thumb">
-                <Link to={`/blog-single-with-sidebar/${id}`}>
-                    <img src={`/assets/img/blog/${thumb}`} width={500} height={500} alt="Thumb" />
+                <Link to={`/blog/${slug}`}>
+                    <img src={`/assets/img/ms/${thumb}`} width={500} height={500} alt="Thumb" />
                 </Link>
             </div>
             <div className="info">
                 <div className="meta-title">
                     <span className="post-date">{date}</span>
                 </div>
-                <Link to={`/blog-single-with-sidebar/${id}`}>{truncatedTitle}</Link>
+                <Link to={`/blog/${slug}`}>{truncatedTitle}</Link>
             </div>
         </li>
     );
