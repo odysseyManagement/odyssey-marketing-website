@@ -6,14 +6,16 @@ import FunFactV1 from "../../components/fact/FunFactV1";
 import LayoutV1 from "../../components/layouts/LayoutV1";
 import PriceV1 from "../../components/price/PriceV1";
 import ServicesV1 from "../../components/services/ServicesV1";
-import TestimonialV2 from "../../components/testimonial/TestimonialV2";
 import ThemeDark from "../../components/switcher/ThemeDark";
+import TestimonialV2 from "../../components/testimonial/TestimonialV2";
 
 const ServicesPage = () => {
     return (
         <>
+                         <meta name="description" content="Odyssey Management Group provides professional OnlyFans management and social media growth services, offering creators influencer marketing strategies, brand support, and tools to maximize online success." />
+
             <Helmet>
-                <title>Dixor - Services</title>
+                <title>Odyssey Management Group - Services</title>
             </Helmet>
 
             <LayoutV1>

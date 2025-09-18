@@ -4,7 +4,6 @@ import { useNavigate, useParams } from 'react-router-dom';
 import BlogData from '../../../src/assets/jsonData/blog/BlogData.json';
 import ArchiveWidget from '../widgets/ArchiveWidget';
 import CategoryWidget from '../widgets/CategoryWidget';
-import FollowWidget from '../widgets/FollowWidget';
 import GalleryWidget from '../widgets/GalleryWidget';
 import RecentPostsWidget from '../widgets/RecentPostsWidget';
 import SearchWidget from '../widgets/SearchWidget';
@@ -90,7 +89,7 @@ const BlogWithSidebarContent = ({ sectionClass }: DataType) => {
                                     <CategoryWidget />
                                     <GalleryWidget />
                                     <ArchiveWidget />
-                                    <FollowWidget />
+                                   {/*  <FollowWidget /> */}
                                     <TagsWidget />
                                 </aside>
                             </div>

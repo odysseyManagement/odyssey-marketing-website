@@ -16,8 +16,10 @@ const TeamDetailsPage = () => {
 
     return (
         <>
+            <meta name="description" content="Explore the Odyssey Management Group blog for expert tips on OnlyFans management, social media growth, influencer marketing, and strategies to help creators succeed online." />
+
             <Helmet>
-                <title>Dixor - Team Details</title>
+                 <title>{data.name} - Odyssey Management Group</title>
             </Helmet>
 
             <LayoutV1>

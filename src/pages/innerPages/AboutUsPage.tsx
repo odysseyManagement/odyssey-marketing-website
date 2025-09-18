@@ -10,9 +10,11 @@ import TeamV1 from "../../components/team/TeamV1";
 const AboutUsPage = () => {
     return (
         <>
-            <Helmet>
-                <title>Dixor - About Us</title>
-            </Helmet>
+             <meta name="description" content="Odyssey Management Group provides professional OnlyFans management and social media growth services, offering creators influencer marketing strategies, brand support, and tools to maximize online success." />
+<Helmet>
+    <title>About Us | Odyssey Management Group</title>
+</Helmet>
+
 
             <LayoutV1>
                 <Breadcrumb title='About Odyssey Management' breadCrumb='About' />

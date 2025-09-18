@@ -9,8 +9,10 @@ import ThemeDark from "../../components/switcher/ThemeDark";
 const ContactUsPage = () => {
     return (
         <>
+<meta name="description" content="Get in touch with Odyssey Management Group for professional OnlyFans management and social media growth support. Contact our team today to start building your success." />
+
             <Helmet>
-                <title>Dixor - Contact Us</title>
+                <title>Odyssey Management Group - Contact Us</title>
             </Helmet>
 
             <LayoutV1>

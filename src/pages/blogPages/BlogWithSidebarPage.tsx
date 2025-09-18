@@ -1,19 +1,21 @@
-import LayoutV1 from '../../components/layouts/LayoutV1';
-import Breadcrumb from '../../components/breadcrumb/Breadcrumb';
-import BlogWithSidebarContent from '../../components/blog/BlogWithSidebarContent';
-import DarkClass from '../../components/classes/DarkClass';
 import { Helmet } from 'react-helmet-async';
+import BlogWithSidebarContent from '../../components/blog/BlogWithSidebarContent';
+import Breadcrumb from '../../components/breadcrumb/Breadcrumb';
+import DarkClass from '../../components/classes/DarkClass';
+import LayoutV1 from '../../components/layouts/LayoutV1';
 import ThemeDark from '../../components/switcher/ThemeDark';
 
 const BlogWithSidebarPage = () => {
     return (
         <>
+<meta name="description" content="Explore the Odyssey Management Group blog for expert tips on OnlyFans management, social media growth, influencer marketing, and strategies to help creators succeed online." />
+
             <Helmet>
-                <title>Dixor - Blog With Sideba</title>
+                <title>Odyssey Management Group - Blog</title>
             </Helmet>
 
             <LayoutV1>
-                <Breadcrumb title='Blog Sidebar' breadCrumb='blog-with-sidebar' />
+                <Breadcrumb title='Our Blog' breadCrumb='blog-with-sidebar' />
                 <BlogWithSidebarContent sectionClass="default-padding-bottom" />
                 <DarkClass />
                 <ThemeDark />

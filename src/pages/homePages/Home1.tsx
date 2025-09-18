@@ -17,8 +17,9 @@ import WhyChooseV3 from "../../components/whyChoose/WhyChooseV3";
 const Home6 = () => {
   return (
     <>
+       <meta name="description" content="Odyssey Management Group helps creators grow their OnlyFans and social platforms with elite influencer management strategies and full support." />
       <Helmet>
-        <title>Odyssey Management Group | Elite OnlyFans & Influencer Management Agency</title>
+        <title>Odyssssey Management Group | Elite OnlyFans & Influencer Management Agency</title>
       </Helmet>
 
       <div className="smooth-scroll-container">

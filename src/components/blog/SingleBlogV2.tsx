@@ -17,7 +17,7 @@ const SingleBlogV2 = ({ blog }: { blog: DataType }) => {
         <>
             <div className="home-blog-two">
                 <div className="thumb">
-                    <Link to={`/blog-single-with-sidebar/${id}`}>
+                    <Link to={`/blog/${id}`}>
                         <img src={`/assets/img/blog/${thumb}`} alt="Image Not Found" width={800} height={600} />
                     </Link>
                     <div className="date">{date} <strong>{month}</strong></div>
