@@ -95,6 +95,9 @@ const MainMenu = ({ navbarPlacement, toggleSubMenu }: DataType) => {
         <li>
           <Link to="/blog">Blog</Link>
         </li>
+          <li>
+          <Link to="/contact-us">Contact</Link>
+        </li>
       </ul>
       <ModalVideo
         channel="youtube"

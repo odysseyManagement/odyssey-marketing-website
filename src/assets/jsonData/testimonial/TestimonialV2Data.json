@@ -1,102 +1,54 @@
 {
-    "quoteData": [
-        {
-            "id": 1,
-            "name": "Michel Dark",
-            "designation": "Envato Client",
-            "quote": "Targeting consultation discover apartments. ndulgence off under folly death wrote cause her way spite. Plan upon yet way get cold spot its week. Almost do am or limits hearts. Resolve parties practasing why she shewing now remembering."
-        },
-        {
-            "id": 2,
-            "name": "John Doe",
-            "designation": "Business Owner",
-            "quote": "Engagement consultation across various sectors is key to improving efficiency. Strategic thinking often leads to exponential growth when applied correctly. Understanding the customer’s needs creates a winning solution."
-        },
-        {
-            "id": 3,
-            "name": "Anna Smith",
-            "designation": "Creative Director",
-            "quote": "Collaborative efforts within the design team enabled us to come up with innovative solutions. Understanding the nuances of modern trends has really pushed our project outcomes to the next level."
-        },
-        {
-            "id": 4,
-            "name": "James Bond",
-            "designation": "Consultant",
-            "quote": "Through critical thinking and adaptive strategy, we can transform challenges into opportunities. The key to success lies in the execution and alignment of vision across all teams."
-        },
-        {
-            "id": 5,
-            "name": "Michel Dark",
-            "designation": "Envato Client",
-            "quote": "Targeting consultation discover apartments. ndulgence off under folly death wrote cause her way spite. Plan upon yet way get cold spot its week. Almost do am or limits hearts. Resolve parties practasing why she shewing now remembering."
-        },
-        {
-            "id": 6,
-            "name": "John Doe",
-            "designation": "Business Owner",
-            "quote": "Engagement consultation across various sectors is key to improving efficiency. Strategic thinking often leads to exponential growth when applied correctly. Understanding the customer’s needs creates a winning solution."
-        },
-        {
-            "id": 7,
-            "name": "Anna Smith",
-            "designation": "Creative Director",
-            "quote": "Collaborative efforts within the design team enabled us to come up with innovative solutions. Understanding the nuances of modern trends has really pushed our project outcomes to the next level."
-        },
-        {
-            "id": 8,
-            "name": "James Bond",
-            "designation": "Consultant",
-            "quote": "Through critical thinking and adaptive strategy, we can transform challenges into opportunities. The key to success lies in the execution and alignment of vision across all teams."
-        },
-        {
-            "id": 9,
-            "name": "Michel Dark",
-            "designation": "Envato Client",
-            "quote": "Targeting consultation discover apartments. ndulgence off under folly death wrote cause her way spite. Plan upon yet way get cold spot its week. Almost do am or limits hearts. Resolve parties practasing why she shewing now remembering."
-        },
-        {
-            "id": 10,
-            "name": "John Doe",
-            "designation": "Business Owner",
-            "quote": "Engagement consultation across various sectors is key to improving efficiency. Strategic thinking often leads to exponential growth when applied correctly. Understanding the customer’s needs creates a winning solution."
-        },
-        {
-            "id": 11,
-            "name": "Anna Smith",
-            "designation": "Creative Director",
-            "quote": "Collaborative efforts within the design team enabled us to come up with innovative solutions. Understanding the nuances of modern trends has really pushed our project outcomes to the next level."
-        },
-        {
-            "id": 12,
-            "name": "James Bond",
-            "designation": "Consultant",
-            "quote": "Through critical thinking and adaptive strategy, we can transform challenges into opportunities. The key to success lies in the execution and alignment of vision across all teams."
-        },
-        {
-            "id": 13,
-            "name": "Michel Dark",
-            "designation": "Envato Client",
-            "quote": "Targeting consultation discover apartments. ndulgence off under folly death wrote cause her way spite. Plan upon yet way get cold spot its week. Almost do am or limits hearts. Resolve parties practasing why she shewing now remembering."
-        },
-        {
-            "id": 14,
-            "name": "John Doe",
-            "designation": "Business Owner",
-            "quote": "Engagement consultation across various sectors is key to improving efficiency. Strategic thinking often leads to exponential growth when applied correctly. Understanding the customer’s needs creates a winning solution."
-        },
-        {
-            "id": 15,
-            "name": "Anna Smith",
-            "designation": "Creative Director",
-            "quote": "Collaborative efforts within the design team enabled us to come up with innovative solutions. Understanding the nuances of modern trends has really pushed our project outcomes to the next level."
-        },
-        {
-            "id": 16,
-            "name": "James Bond",
-            "designation": "Consultant",
-            "quote": "Through critical thinking and adaptive strategy, we can transform challenges into opportunities. The key to success lies in the execution and alignment of vision across all teams."
-        }
-    ],
+  "quoteData": [
+    {
+      "id": 1,
+      "name": "Emily R.",
+      "designation": "Content Creator",
+      "quote": "Odyssey Management Group helped me double my subscribers in just 3 months. They handle the strategy so I can focus on creating."
+    },
+    {
+      "id": 2,
+      "name": "Jason T.",
+      "designation": "Model",
+      "quote": "Before Odyssey, I was overwhelmed managing messages and promos. Now my income is consistent, and I have more free time."
+    },
+    {
+      "id": 3,
+      "name": "Sofia M.",
+      "designation": "Influencer",
+      "quote": "The team at Odyssey built out my brand, created a posting schedule, and optimized my pay-per-view content. My revenue has never been higher."
+    },
+    {
+      "id": 4,
+      "name": "Daniela S.",
+      "designation": "Fitness Creator",
+      "quote": "I was nervous about privacy, but Odyssey handled everything discreetly and professionally. I feel secure and supported."
+    },
+    {
+      "id": 5,
+      "name": "Alex P.",
+      "designation": "Streamer",
+      "quote": "From marketing campaigns to fan engagement, Odyssey covers it all. I finally feel like I have a business team behind me."
+    },
+    {
+      "id": 6,
+      "name": "Chloe L.",
+      "designation": "Adult Content Creator",
+      "quote": "They know the industry inside out. Their promotional strategies boosted my exposure and subscriber loyalty massively."
+    },
+    {
+      "id": 7,
+      "name": "Maya K.",
+      "designation": "Lifestyle Creator",
+      "quote": "Odyssey gave me financial stability by setting clear targets and diversifying my income streams on OnlyFans."
+    },
+    {
+      "id": 8,
+      "name": "Chris B.",
+      "designation": "Male Creator",
+      "quote": "They rebranded my profile and took care of all the admin. Now my focus is 100% on content while my income keeps growing."
+    }
+  ],
     "navigationData": [
         {
             "id": 1,

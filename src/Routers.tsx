@@ -27,6 +27,9 @@ import BlogWithSidebarPage from "./pages/blogPages/BlogWithSidebarPage";
 import NotFoundPage from "./pages/innerPages/NotFoundPage";
 import PrivacyPolicy from "./pages/innerPages/PrivacyPolicy";
 import TermsAndConditions from "./pages/innerPages/TermsAndConditions";
+import GlobalBranches from "./pages/servicesPages/GlobalBranches";
+import OurTeam from "./pages/servicesPages/OurTeam";
+import OurValues from "./pages/servicesPages/OurValues";
 
 const Routers = () => {
     return (
@@ -40,9 +43,9 @@ const Routers = () => {
                 <Route path='/contact-us' element={<ContactUsPage />}></Route>
                 <Route path='/faq' element={<FaqPage />}></Route>
 
-                 <Route path='/global-branches' element={<ServicesPage />}></Route>
-                 <Route path='/our-values' element={<ServicesPage />}></Route>
-                 <Route path='/our-team' element={<ServicesPage />}></Route>
+                 <Route path='/global-branches' element={<GlobalBranches />}></Route>
+                 <Route path='/our-values' element={<OurValues />}></Route>
+                 <Route path='/our-team' element={<OurTeam />}></Route>
                  <Route path='/talent' element={<Team2Page />}></Route>
                 <Route path='/talent/:id' element={<TeamDetailsPage />}></Route>
 

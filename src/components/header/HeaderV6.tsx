@@ -27,7 +27,21 @@ const HeaderV6 = () => {
                                 <img src={logo} className="logo-dark" alt="Logo" />
                             </Link>
                         </div>
+
                         <div className={`collapse navbar-collapse ${isOpen ? "show collapse-mobile" : "collapse-mobile"}`} id="navbar-menu">
+  {/* MOBILE-ONLY CTA (shows in the mobile sidebar) */}
+  <div className="attr-right d-lg-none">
+    <div className="">
+      <ul>
+        <li className="button">
+          <Link to="/contact-us">Become A Model</Link>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+
+
                             <img className="regular-img" src={logoLight} alt="Logo" />
                             <img className="light-img" src={logo} alt="Logo" />
                             <button type="button" className="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu" onClick={closeMenu}>
@@ -38,7 +52,7 @@ const HeaderV6 = () => {
                             <div className="attr-nav flex">
                                 <ul>
                                     <li className="button">
-                                        <Link to="/contact-us">Get in touch</Link>
+                                        <Link to="/contact-us">Become A Model</Link>
                                     </li>
 
                                 </ul>
@@ -46,7 +60,9 @@ const HeaderV6 = () => {
                         </div>
                         </div>
                     </div>
-                    <div className={`overlay-screen ${isOpen ? "opened" : ""}`} onClick={closeMenu} />
+                    <div className={`overlay-screen ${isOpen ? "opened" : ""}`} onClick={closeMenu} >
+
+                    </div>
                 </nav>
             </header>
         </>

@@ -170,7 +170,9 @@ export default function TwoColImageWithSliders() {
             <img
               src={topImage}
               alt="Top main"
-              className="img-fluid w-100"
+              className="img-fluid w-100 d-none d-sm-block"
+
+
               style={{ objectFit: "contain", maxHeight: "569px" }}
             />
           </div>

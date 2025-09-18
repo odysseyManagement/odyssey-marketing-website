@@ -2,23 +2,21 @@ import { Helmet } from "react-helmet-async";
 import Breadcrumb from "../../components/breadcrumb/Breadcrumb";
 import CityShowcase from "../../components/CityShowcase";
 import DarkClass from "../../components/classes/DarkClass";
-import ContactV1 from "../../components/contact/ContactV1";
 import LayoutV1 from "../../components/layouts/LayoutV1";
 import ThemeDark from "../../components/switcher/ThemeDark";
 
-const ContactUsPage = () => {
+const GlobalBranches = () => {
     return (
         <>
-<meta name="description" content="Get in touch with Odyssey Management Group for professional OnlyFans management and social media growth support. Contact our team today to start building your success." />
+                         <meta name="description" content="Odyssey Management Group provides professional OnlyFans management and social media growth services, offering creators influencer marketing strategies, brand support, and tools to maximize online success." />
 
             <Helmet>
-                <title>Odyssey Management Group - Contact Us</title>
+                <title>Odyssey Management Group - Services</title>
             </Helmet>
 
             <LayoutV1>
-                <Breadcrumb title='Join Us' breadCrumb='contact-us' />
-                <ContactV1 />
-                <CityShowcase />
+                <Breadcrumb title='Global Branches' breadCrumb='services' />
+                    <CityShowcase />
                 <DarkClass />
                 <ThemeDark />
             </LayoutV1>
@@ -26,4 +24,4 @@ const ContactUsPage = () => {
     );
 };
 
-export default ContactUsPage;
+export default GlobalBranches;

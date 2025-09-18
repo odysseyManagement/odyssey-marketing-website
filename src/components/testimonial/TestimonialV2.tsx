@@ -1,11 +1,11 @@
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Swiper as SwiperType } from 'swiper';
-import { Navigation, Controller, FreeMode } from 'swiper/modules';
-import shape3 from '/assets/img/shape/3.png';
-import SplitText from "../animation/SplitText.jsx"
-import TestimonialV2Data from "../../../src/assets/jsonData/testimonial/TestimonialV2Data.json"
-import SingleTestimonialV2 from './SingleTestimonialV2';
 import { useState } from 'react';
+import { Swiper as SwiperType } from 'swiper';
+import { Controller, FreeMode, Navigation } from 'swiper/modules';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import TestimonialV2Data from "../../../src/assets/jsonData/testimonial/TestimonialV2Data.json";
+import SplitText from "../animation/SplitText.jsx";
+import SingleTestimonialV2 from './SingleTestimonialV2';
+import shape3 from '/assets/img/shape/3.png';
 
 interface DataType {
     sectionClass?: string
@@ -84,9 +84,7 @@ const TestimonialV2 = ({ sectionClass }: DataType) => {
                                 <div className="swiper-wrapper">
                                     {TestimonialV2Data.navigationData.map(data =>
                                         <SwiperSlide className="swiper-slide" key={data.id}>
-                                            <div className="swiper-bullet-item">
-                                                <img src={`/assets/img/team/${data.thumb}`} alt="Image Not Found" width={200} height={200} />
-                                            </div>
+
                                         </SwiperSlide>
                                     )}
                                 </div>

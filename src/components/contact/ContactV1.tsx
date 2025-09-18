@@ -44,7 +44,7 @@ const ContactV1 = ({ sectionClass }: DataType) => {
                             <div className="col-tact-stye-one col-lg-7 offset-lg-1">
                                 <div className="contact-form-style-one">
                                     <h4 className="sub-title">Have Questions?</h4>
-                                    <h2 className="title">Send us a Massage</h2>
+                                    <h2 className="title">Become A Model</h2>
                                     <ContactForm />
                                 </div>
                             </div>
