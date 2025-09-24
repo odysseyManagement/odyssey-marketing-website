@@ -30,10 +30,10 @@ We're behind some of the fastest-growing names in the space. We know what works,
                                 <img src={thumb4} alt="Image Not Found" />
                                 <div className="fun-fact-style-two">
                                     <div className="counter">
-                                        <div className="timer"><CountUp end={100} enableScrollSpy /></div>
-                                        <div className="operator">K</div>
+                                        <div className="timer"><CountUp end={2000} enableScrollSpy /></div>
+                                        <div className="operator">+</div>
                                     </div>
-                                    <span className="medium">Models Worked With</span>
+                                    <span className="medium">Models Currently Active</span>
                                 </div>
                             </div>
                         </div>

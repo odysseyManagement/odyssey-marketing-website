@@ -34,10 +34,10 @@ const BannerV7 = () => {
                                 <div className="content">
                                     <div className="fun-fact">
                                         <div className="counter">
-                                            <div className="timer"><CountUp end={38} enableScrollSpy /></div>
-                                            <div className="operator">K</div>
+                                            <div className="timer"><CountUp end={4} enableScrollSpy /></div>
+                                            <div className="operator">m+</div>
                                         </div>
-                                        <span className="medium">Completed Projects</span>
+                                        <span className="medium text-center">Monthly Revenue Generated</span>
                                     </div>
                                     <div className="info-right">
 

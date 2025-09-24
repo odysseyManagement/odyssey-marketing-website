@@ -31,7 +31,7 @@ const AboutV7 = ({ sectionClass }: DataType) => {
                                             Our mission is simple: help you live your dream life.
                                         </SplitText>
                                     </h2>
-                                    <Link className="btn-animation mt-10" to="/about-2">
+                                    <Link className="btn-animation mt-10" to="/about-us">
                                         <i className="fas fa-arrow-right" /> <span>Know More</span>
                                     </Link>
                                 </div>
@@ -70,7 +70,8 @@ const AboutV7 = ({ sectionClass }: DataType) => {
                                                     <img src={icon16} alt="Image Not Found" />
                                                 </div>
                                                 <div className="info">
-                                                    <h4>Award winning onlyfans management agency</h4>
+                                                    <h4>
+                                                        Award Winning Influencer Brand Management Agency</h4>
                                                 </div>
                                             </div>
                                             <div className="user-card-two">

@@ -13,6 +13,8 @@ import ThemeDark from "../../components/switcher/ThemeDark";
 import TestimonialV3 from "../../components/testimonial/TestimonialV3";
 import TrioImageGrid from "../../components/TrioImageColumnsSwiper";
 import WhyChooseV3 from "../../components/whyChoose/WhyChooseV3";
+import MultiSection from "../../components/multi/MultiSection";
+import ProcessWrapper from "../../components/process/ProcessWrapper";
 
 const Home6 = () => {
   return (
@@ -26,7 +28,10 @@ const Home6 = () => {
         <HeaderV6 />
         <BannerV10 />
         <AboutV7 sectionClass="bg-gray" />
+ <ProcessWrapper />
+
         <CityShowcase />
+
         <TrioImageGrid />
         {/* <PartnerV2 /> */}
         {/*    <ServicesV2 sectionClass='default-padding-top bg-gray' hasTitle={true} /> */}
