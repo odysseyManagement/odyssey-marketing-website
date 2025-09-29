@@ -4,6 +4,7 @@ import TextAnimationV1 from "../../components/animation/TextAnimationV1";
 import BannerV6 from "../../components/banner/BannerV6";
 import BlogV2 from "../../components/blog/BlogV2";
 import BrandV2 from "../../components/brand/BrandV2";
+import DarkClass from "../../components/classes/DarkClass";
 import FunFactV1 from "../../components/fact/FunFactV1";
 import FooterV2 from "../../components/footer/FooterV2";
 import HeaderV2 from "../../components/header/HeaderV2";
@@ -11,8 +12,6 @@ import PortfolioV2 from "../../components/portfolio/PortfolioV2";
 import ServicesV4 from "../../components/services/ServicesV4";
 import TestimonialV2 from "../../components/testimonial/TestimonialV2";
 import ZoomVideoV1 from "../../components/videos/ZoomVideoV1";
-import DarkClass from "../../components/classes/DarkClass";
-import ThemeDark from "../../components/switcher/ThemeDark";
 
 const Home7 = () => {
     return (
@@ -34,7 +33,7 @@ const Home7 = () => {
             <BlogV2 />
             <FooterV2 />
             <DarkClass />
-            <ThemeDark />
+
         </>
     );
 };

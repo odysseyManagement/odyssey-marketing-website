@@ -1,10 +1,9 @@
 import { Helmet } from "react-helmet-async";
-import HeaderV1 from "../../components/header/HeaderV1";
-import DarkClass from "../../components/classes/DarkClass";
-import ThemeDark from "../../components/switcher/ThemeDark";
 import BannerV13 from "../../components/banner/BannerV13";
-import PortfolioV7 from "../../components/portfolio/PortfolioV7";
+import DarkClass from "../../components/classes/DarkClass";
 import FooterV1 from "../../components/footer/FooterV1";
+import HeaderV1 from "../../components/header/HeaderV1";
+import PortfolioV7 from "../../components/portfolio/PortfolioV7";
 
 const Home13 = () => {
     return (
@@ -18,7 +17,7 @@ const Home13 = () => {
             <PortfolioV7 />
             <FooterV1 />
             <DarkClass />
-            <ThemeDark />
+
         </>
     );
 };

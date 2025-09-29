@@ -47,7 +47,7 @@ const Home6 = () => {
         {/*    <BlogV1 sectionClass='bg-gray' /> */}
         <FooterV4 />
         <DarkClass />
-        <ThemeDark />
+
       </div>
     </>
   );

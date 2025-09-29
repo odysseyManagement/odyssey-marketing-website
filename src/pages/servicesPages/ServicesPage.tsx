@@ -6,7 +6,6 @@ import FunFactV1 from "../../components/fact/FunFactV1";
 import LayoutV1 from "../../components/layouts/LayoutV1";
 import PriceV1 from "../../components/price/PriceV1";
 import ServicesV1 from "../../components/services/ServicesV1";
-import ThemeDark from "../../components/switcher/ThemeDark";
 import TestimonialV2 from "../../components/testimonial/TestimonialV2";
 
 const ServicesPage = () => {
@@ -26,7 +25,7 @@ const ServicesPage = () => {
                 <TestimonialV2 />
                 <PriceV1 sectionClass='bg-gray' />
                 <DarkClass />
-                <ThemeDark />
+
             </LayoutV1>
         </>
     );

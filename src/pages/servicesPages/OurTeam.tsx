@@ -2,7 +2,6 @@ import { Helmet } from "react-helmet-async";
 import Breadcrumb from "../../components/breadcrumb/Breadcrumb";
 import DarkClass from "../../components/classes/DarkClass";
 import LayoutV1 from "../../components/layouts/LayoutV1";
-import ThemeDark from "../../components/switcher/ThemeDark";
 import TeamV1 from "../../components/team/TeamV1";
 
 const OurTeam = () => {
@@ -18,7 +17,7 @@ const OurTeam = () => {
                                <TeamV1 sectionClass='bg-gray' hasTitle={true} />
 
                 <DarkClass />
-                <ThemeDark />
+
             </LayoutV1>
         </>
     );

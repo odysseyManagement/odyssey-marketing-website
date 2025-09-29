@@ -3,7 +3,6 @@ import Breadcrumb from "../../components/breadcrumb/Breadcrumb";
 import DarkClass from "../../components/classes/DarkClass";
 import LayoutV1 from "../../components/layouts/LayoutV1";
 import PortfolioV6 from "../../components/portfolio/PortfolioV6";
-import ThemeDark from "../../components/switcher/ThemeDark";
 
 const Project3Page = () => {
     return (
@@ -17,7 +16,7 @@ const Project3Page = () => {
                     <Breadcrumb title='Case Studies' breadCrumb='Project-3' />
                     <PortfolioV6 />
                     <DarkClass />
-                    <ThemeDark />
+
                 </LayoutV1>
             </div>
         </>

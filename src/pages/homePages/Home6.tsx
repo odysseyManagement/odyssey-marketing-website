@@ -8,7 +8,6 @@ import QuickContact from "../../components/contact/QuickContact";
 import FooterV4 from "../../components/footer/FooterV4";
 import HeaderV6 from "../../components/header/HeaderV6";
 import ServicesV2 from "../../components/services/ServicesV2";
-import ThemeDark from "../../components/switcher/ThemeDark";
 import TestimonialV3 from "../../components/testimonial/TestimonialV3";
 import TrioImageGrid from "../../components/TrioImageColumnsSwiper";
 
@@ -36,7 +35,7 @@ const Home6 = () => {
                 <CursorEffect />
                 <FooterV4 />
                 <DarkClass />
-                <ThemeDark />
+
             </div>
         </>
     );

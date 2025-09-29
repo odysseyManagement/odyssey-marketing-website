@@ -4,7 +4,6 @@ import DarkClass from "../../components/classes/DarkClass";
 import QuickContact from "../../components/contact/QuickContact";
 import FaqV1 from "../../components/faq/FaqV1";
 import LayoutV1 from "../../components/layouts/LayoutV1";
-import ThemeDark from "../../components/switcher/ThemeDark";
 
 const FaqPage = () => {
     return (
@@ -18,7 +17,7 @@ const FaqPage = () => {
                 <FaqV1 sectionClass='bg-gray' />
                 <QuickContact title='Need' titleBold='Help?' />
                 <DarkClass />
-                <ThemeDark />
+
             </LayoutV1>
         </>
     );

@@ -6,7 +6,6 @@ import Breadcrumb from "../../components/breadcrumb/Breadcrumb";
 import DarkClass from "../../components/classes/DarkClass";
 import QuickContact from "../../components/contact/QuickContact";
 import LayoutV1 from "../../components/layouts/LayoutV1";
-import ThemeDark from "../../components/switcher/ThemeDark";
 import TeamDetails from "../../components/team/TeamDetails";
 
 const TeamDetailsPage = () => {
@@ -28,7 +27,7 @@ const TeamDetailsPage = () => {
                 <AchievementAward />
                 <QuickContact  />
                 <DarkClass />
-                <ThemeDark />
+
             </LayoutV1>
         </>
     );

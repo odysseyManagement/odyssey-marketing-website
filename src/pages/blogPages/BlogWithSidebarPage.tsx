@@ -3,7 +3,6 @@ import BlogWithSidebarContent from '../../components/blog/BlogWithSidebarContent
 import Breadcrumb from '../../components/breadcrumb/Breadcrumb';
 import DarkClass from '../../components/classes/DarkClass';
 import LayoutV1 from '../../components/layouts/LayoutV1';
-import ThemeDark from '../../components/switcher/ThemeDark';
 
 const BlogWithSidebarPage = () => {
     return (
@@ -18,7 +17,7 @@ const BlogWithSidebarPage = () => {
                 <Breadcrumb title='Our Blog' breadCrumb='blog-with-sidebar' />
                 <BlogWithSidebarContent sectionClass="default-padding-bottom" />
                 <DarkClass />
-                <ThemeDark />
+
             </LayoutV1>
         </>
     );

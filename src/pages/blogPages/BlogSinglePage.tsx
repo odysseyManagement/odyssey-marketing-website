@@ -1,11 +1,10 @@
-import LayoutV1 from '../../components/layouts/LayoutV1';
-import Breadcrumb from '../../components/breadcrumb/Breadcrumb';
-import BlogSingleContent from '../../components/blog/BlogSingleContent';
-import DarkClass from '../../components/classes/DarkClass';
+import { Helmet } from 'react-helmet-async';
 import { useParams } from 'react-router-dom';
 import BlogV3Data from "../../../src/assets/jsonData/blog/BlogV3Data.json";
-import { Helmet } from 'react-helmet-async';
-import ThemeDark from '../../components/switcher/ThemeDark';
+import BlogSingleContent from '../../components/blog/BlogSingleContent';
+import Breadcrumb from '../../components/breadcrumb/Breadcrumb';
+import DarkClass from '../../components/classes/DarkClass';
+import LayoutV1 from '../../components/layouts/LayoutV1';
 
 const BlogSinglePage = () => {
 
@@ -22,7 +21,7 @@ const BlogSinglePage = () => {
                 <Breadcrumb title='Blog Single' breadCrumb='blog-single' />
                 {data && <BlogSingleContent sectionClass='default-padding-bottom' blogInfo={data} totalBlogs={BlogV3Data.length} />}
                 <DarkClass />
-                <ThemeDark />
+
             </LayoutV1>
         </>
     );

@@ -4,7 +4,6 @@ import DarkClass from "../../components/classes/DarkClass";
 import QuickContact from "../../components/contact/QuickContact";
 import LayoutV1 from "../../components/layouts/LayoutV1";
 import PartnerV2 from "../../components/partner/PartnerV2";
-import ThemeDark from "../../components/switcher/ThemeDark";
 import TeamV1 from "../../components/team/TeamV1";
 
 const AboutUsPage = () => {
@@ -22,7 +21,7 @@ const AboutUsPage = () => {
                 <TeamV1 sectionClass='bg-gray' hasTitle={true} />
                     <QuickContact />
                 <DarkClass />
-                <ThemeDark />
+
             </LayoutV1>
         </>
     );

@@ -6,7 +6,6 @@ import DarkClass from "../../components/classes/DarkClass";
 import QuickContact from "../../components/contact/QuickContact";
 import LayoutV1 from "../../components/layouts/LayoutV1";
 import ServiceDetailsContent from "../../components/services/ServiceDetailsContent";
-import ThemeDark from "../../components/switcher/ThemeDark";
 
 const ServiceDetailsPage = () => {
     const { slug } = useParams();
@@ -36,7 +35,7 @@ const ServiceDetailsPage = () => {
 
                   <QuickContact sectionClass="bg-gray" />
                 <DarkClass />
-                <ThemeDark />
+
             </LayoutV1>
         </>
     );

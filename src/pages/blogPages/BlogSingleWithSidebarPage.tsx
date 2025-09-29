@@ -5,7 +5,6 @@ import BlogSingleWithSidebarContent from "../../components/blog/BlogSingleWithSi
 import Breadcrumb from "../../components/breadcrumb/Breadcrumb";
 import DarkClass from "../../components/classes/DarkClass";
 import LayoutV1 from "../../components/layouts/LayoutV1";
-import ThemeDark from "../../components/switcher/ThemeDark";
 
 const BlogSingleWithSidebarPage = () => {
 
@@ -24,7 +23,7 @@ const BlogSingleWithSidebarPage = () => {
                 {data && <Breadcrumb title={data.title} breadCrumb='blog-single-with-sidebar' />}
                 {data && <BlogSingleWithSidebarContent sectionClass='default-padding-bottom' blogInfo={data} totalBlogs={BlogV3Data.length} />}
                 <DarkClass />
-                <ThemeDark />
+
             </LayoutV1>
         </>
     );

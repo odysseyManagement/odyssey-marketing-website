@@ -3,7 +3,6 @@ import Breadcrumb from "../../components/breadcrumb/Breadcrumb";
 import CityShowcase from "../../components/CityShowcase";
 import DarkClass from "../../components/classes/DarkClass";
 import LayoutV1 from "../../components/layouts/LayoutV1";
-import ThemeDark from "../../components/switcher/ThemeDark";
 
 const GlobalBranches = () => {
     return (
@@ -18,7 +17,7 @@ const GlobalBranches = () => {
                 <Breadcrumb title='Global Branches' breadCrumb='services' />
                     <CityShowcase />
                 <DarkClass />
-                <ThemeDark />
+
             </LayoutV1>
         </>
     );

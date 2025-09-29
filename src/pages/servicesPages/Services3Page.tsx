@@ -7,7 +7,6 @@ import LayoutV1 from "../../components/layouts/LayoutV1";
 import PriceV1 from "../../components/price/PriceV1";
 import ServicesV3 from "../../components/services/ServicesV3";
 import TestimonialV2 from "../../components/testimonial/TestimonialV2";
-import ThemeDark from "../../components/switcher/ThemeDark";
 
 const Services3Page = () => {
     return (
@@ -24,7 +23,7 @@ const Services3Page = () => {
                 <TestimonialV2 />
                 <PriceV1 sectionClass='bg-gray' />
                 <DarkClass />
-                <ThemeDark />
+
             </LayoutV1>
         </>
     );

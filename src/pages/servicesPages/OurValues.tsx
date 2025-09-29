@@ -2,7 +2,6 @@ import { Helmet } from "react-helmet-async";
 import Breadcrumb from "../../components/breadcrumb/Breadcrumb";
 import DarkClass from "../../components/classes/DarkClass";
 import LayoutV1 from "../../components/layouts/LayoutV1";
-import ThemeDark from "../../components/switcher/ThemeDark";
 import TestimonialV2 from "../../components/testimonial/TestimonialV2";
 
 const OurValues = () => {
@@ -20,7 +19,7 @@ const OurValues = () => {
                 <TestimonialV2 />
 
                 <DarkClass />
-                <ThemeDark />
+
             </LayoutV1>
         </>
     );
