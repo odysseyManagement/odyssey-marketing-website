@@ -1,7 +1,10 @@
+/* --- Base (mobile-first) --- */
+
 .wrap {
   position: relative;
   background: #171717;
-  height: min(92vh, 860px);
+  height: auto;                 /* let content size naturally on mobile */
+  padding-block: 18px 8px;
   overflow: hidden;
   margin-top: 20px;
 }
@@ -12,115 +15,257 @@
   inset: 0;
   display: grid;
   place-items: center;
-  z-index: 5;
+  z-index: 1;
   pointer-events: none;
 }
 .title span {
-  font-size: clamp(5rem, 7vw, 12rem);
+  font-size: clamp(3.2rem, 12vw, 6rem);
   font-weight: 700;
-  font-family: Montserrat, sans-serif;
+  font-family: Montserrat, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
   text-transform: uppercase;
-  color: transparent; /* transparent fill */
-  -webkit-text-stroke-width: 0.13rem;
-  -webkit-text-stroke-color: #fff; /* white outline */
-  text-stroke-width: 0.13rem;       /* fallback */
+  color: transparent;
+  -webkit-text-stroke-width: 0.12rem;
+  -webkit-text-stroke-color: #fff;
+  text-stroke-width: 0.12rem;
   text-stroke-color: #fff;
   line-height: 1;
   letter-spacing: 0.02em;
-  opacity: 0.9;
-  margin-left: auto;
-  margin-top: -700px;
-  margin-right: auto;
-  position: absolute;
+  opacity: 0.25;               /* lighter on mobile to avoid clutter */
+  margin: 0;
 }
 
-/* Row uses flex for expanding panels */
+/* Accessible, visually hidden heading */
+.srOnly {
+  position: absolute !important;
+  width: 1px; height: 1px;
+  padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0,0,0,0);
+  white-space: nowrap; border: 0;
+}
+
+/* Mobile: horizontal swipe carousel with snap */
 .row {
   position: relative;
   z-index: 2;
-  height: 100%;
   display: flex;
+  gap: 12px;
+  overflow-x: auto;
+  padding-inline: 14px;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
 }
 
-/* Each card shares equal width initially */
 .card {
-  flex: 1;
   position: relative;
+  flex: 0 0 82vw;              /* big, comfy tap target */
+  aspect-ratio: 3 / 4;         /* stable height across images */
+  border-radius: 18px;
   overflow: hidden;
-  transition: flex 0.6s ease, filter 0.3s ease;
+  scroll-snap-align: start;
   cursor: pointer;
-  display: flex;
-  align-items: flex-end;
+  outline: none;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.35);
 }
 
-/* Expand the hovered card */
-.row:hover .card {
-  flex: 0.7; /* shrink others */
-}
-.row:hover .card:hover {
-  flex: 1.5; /* expand hovered */
+.card:focus-visible {
+  box-shadow: 0 0 0 3px rgba(255,255,255,0.65), 0 10px 30px rgba(0,0,0,0.35);
 }
 
-/* Images */
+/* Image + subtle scale on focus/hover (desktop will enhance further) */
 .image {
   position: absolute;
   inset: 0;
-  width: 100%;
-  height: 100%;
+  width: 100%; height: 100%;
   object-fit: cover;
+  transform: scale(1.02);
   transition: transform 0.6s ease;
 }
-.card:hover .image {
-  transform: scale(1.1);
+
+/* Gradient scrim for text legibility */
+.scrim {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(0,0,0,0) 40%, rgba(0,0,0,0.55) 100%);
+  z-index: 1;
 }
 
-/* Labels */
+/* Labels: always visible on mobile (no hover on touch) */
 .label {
-  position: relative;
+  position: absolute;
   z-index: 2;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  margin: 20px;
-  transform: translateY(20px);
-  opacity: 0;
-  transition: opacity 0.3s ease, transform 0.3s ease;
-}
-.card:hover .label {
-  opacity: 1;
-  transform: translateY(0);
+  bottom: 12px; left: 12px; right: 12px;
+  display: flex; align-items: center; gap: 10px;
+  padding: 8px 10px;
+  background: rgba(0,0,0,0.35);
+  border: 1px solid rgba(255,255,255,0.25);
+  border-radius: 12px;
+  backdrop-filter: blur(6px);
 }
 
-/* Vertical city text */
 .city {
   color: #fff;
   font-weight: 800;
-  letter-spacing: 0.2em;
-  font-size: clamp(1rem, 1.6vw, 1.6rem);
-  writing-mode: vertical-rl;
-  text-orientation: mixed;
-  transform: rotate(180deg);
+  letter-spacing: 0.12em;
+  font-size: clamp(0.9rem, 3.5vw, 1rem);
+  /* horizontal on mobile for readability */
+  writing-mode: horizontal-tb;
   text-shadow: 0 1px 10px rgba(0,0,0,0.45);
 }
 
-/* Subtext */
 .sub {
   color: #e0e0e0;
-  font-size: 0.85rem;
-  font-weight: 500;
-  padding-left: 6px;
+  font-size: clamp(0.8rem, 3vw, 0.9rem);
+  font-weight: 600;
+  padding-left: 8px;
   border-left: 2px solid rgba(255,255,255,0.4);
   white-space: nowrap;
   text-shadow: 0 1px 6px rgba(0,0,0,0.4);
 }
 
-/* Responsive tweaks */
-@media (max-width: 768px) {
-  .row {
-    flex-direction: column;
+/* --- Desktop / large screens --- */
+@media (min-width: 768px) {
+  .wrap {
+    height: min(92vh, 860px);
+    padding: 0;
   }
+
+  .title span {
+    opacity: 0.9;
+    font-size: clamp(5rem, 7vw, 12rem);
+    margin-top: -700px;       /* match original positioning */
+  }
+
+  .row {
+    height: 100%;
+    overflow: hidden;
+    padding: 0;
+    display: flex;
+  }
+
+  .card {
+    flex: 1;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  /* Expand the hovered (or focused) card */
+  .row:hover .card {
+    flex: 0.7;
+  }
+  .row:hover .card:hover,
+  .card:focus-within,
+  .card:focus {
+    flex: 1.5;
+  }
+
+  .image {
+    transform: none;
+  }
+  .row:hover .card:hover .image,
+  .card:focus-within .image,
+  .card:focus .image {
+    transform: scale(1.1);
+  }
+
+  /* Labels fade in on hover/focus for desktop parity */
+  .label {
+    background: rgba(0,0,0,0.28);
+    border-radius: 10px;
+    transform: translateY(20px);
+    opacity: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    bottom: 20px; left: 20px; right: auto;
+  }
+  .row:hover .card:hover .label,
+  .card:focus-within .label,
+  .card:focus .label {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* Bring back the vertical city label on desktop for style */
+  .city {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    transform: rotate(180deg);
+    letter-spacing: 0.2em;
+    font-size: clamp(1rem, 1.3vw, 1.4rem);
+  }
+}
+
+/* --- Motion/accessibility niceties --- */
+@media (prefers-reduced-motion: reduce) {
+  .image,
+  .label,
   .row:hover .card,
   .row:hover .card:hover {
-    flex: 1;
+    transition: none !important;
   }
+}
+/* --- keep your existing mobile styles as-is --- */
+
+/* Desktop section only: replace your old .row:hover/.card:hover rules with this */
+@media (min-width: 768px) {
+  .wrap { height: min(92vh, 860px); padding: 0; }
+  .row { height: 100%; overflow: hidden; padding: 0; display: flex; }
+
+  /* Use flex-grow distribution with buttery easing */
+  .card {
+    flex: 1 1 0%;
+    transition:
+      flex-grow 520ms cubic-bezier(.22,.61,.36,1),
+      transform 520ms cubic-bezier(.22,.61,.36,1);
+    will-change: flex-grow, transform;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  /* When the row is being hovered (pointer: fine), gently compress all cards */
+  .row[data-hovering="true"] .card {
+    flex-grow: 0.7;
+  }
+
+  /* Only the active card expands; switching active glides the layout */
+  .row[data-hovering="true"] .card[data-active="true"] {
+    flex-grow: 2;
+  }
+
+  /* Image scale tied to active/keyboard focus for consistency */
+  .image { transform: none; transition: transform 520ms cubic-bezier(.22,.61,.36,1); }
+  .row[data-hovering="true"] .card[data-active="true"] .image,
+  .card:focus-within .image,
+  .card:focus .image {
+    transform: scale(1.08);
+  }
+
+  /* Labels fade in only on the active/focused card */
+  .label {
+    background: rgba(0,0,0,0.28);
+    border-radius: 10px;
+    transform: translateY(20px);
+    opacity: 0;
+    transition: opacity 280ms ease, transform 280ms ease;
+    bottom: 20px; left: 20px; right: auto;
+  }
+  .row[data-hovering="true"] .card[data-active="true"] .label,
+  .card:focus-within .label,
+  .card:focus .label {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* Bring back your vertical city label on desktop */
+  .city {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    transform: rotate(180deg);
+    letter-spacing: 0.2em;
+    font-size: clamp(1rem, 1.3vw, 1.4rem);
+  }
+}
+
+/* Motion safety */
+@media (prefers-reduced-motion: reduce) {
+  .image, .label, .card { transition: none !important; }
 }

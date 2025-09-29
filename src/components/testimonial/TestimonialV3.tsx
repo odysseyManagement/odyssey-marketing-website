@@ -34,7 +34,7 @@ const TestimonialV3 = ({ sectionClass }: DataType) => {
                         <div className="col-lg-12">
                             <Swiper className="testimonial-style-three-carousel swiper"
                                 loop={true}
-                                slidesPerView={1}
+                                slidesPerView={3}
                                 spaceBetween={30}
  autoplay={{
                                 delay: 3000, // 3s

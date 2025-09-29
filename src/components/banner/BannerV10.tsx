@@ -18,14 +18,14 @@ const BannerV10 = () => {
                 <div className="container">
                     <div className="row align-center">
                         <div className="col-xl-8 col-lg-7 pl-60 pl-md-15 pl-xs-15 order-lg-last">
-                            <div className="banner-ten-content">
+                            <div className="banner-ten-content text-center text-lg-start">
                                 <h2>Transforming your <strong>Brand</strong> into your own <strong>Empire</strong></h2>
                                 <p>
 We take what you're already good at — creating — and turn it into a brand that grows, an income that lasts, and opportunities that change everything.
 We're behind some of the fastest-growing names in the space. We know what works, and we make it happen. </p>
                             </div>
                         </div>
-                        <div className="col-xl-4 col-lg-5">
+                        <div className="col-xl-4 col-lg-5 d-none d-lg-block">
                             <div className="banner-style-ten-left-info">
                                 <img src={thumb4} alt="Image Not Found" />
                                 <div className="fun-fact-style-two">
@@ -33,7 +33,7 @@ We're behind some of the fastest-growing names in the space. We know what works,
                                         <div className="timer"><CountUp end={2000} enableScrollSpy /></div>
                                         <div className="operator">+</div>
                                     </div>
-                                    <span className="medium">Models Currently Active</span>
+                                    <span className="medium ">Models Currently Active</span>
                                 </div>
                             </div>
                         </div>
