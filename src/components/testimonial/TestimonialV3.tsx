@@ -35,12 +35,12 @@ const TestimonialV3 = ({ sectionClass }: DataType) => {
                 className="testimonial-style-three-carousel"
                 style={{ willChange: 'transform' }}
                 // Performance-friendly defaults on phones
-                slidesPerView={3}
+                slidesPerView={2}
                 spaceBetween={16}
                 speed={500}
                 loop={false}
                 watchSlidesProgress
-                preloadImages={false}
+                preloadImages={true}
                 lazy={{ checkInView: true }}
 
                 autoplay={{ delay: 3000, disableOnInteraction: false, pauseOnMouseEnter: true }}
@@ -50,7 +50,7 @@ const TestimonialV3 = ({ sectionClass }: DataType) => {
                 keyboard={{ enabled: true, onlyInViewport: true }}
 
                 breakpoints={{
-                  640: { slidesPerView: 2, spaceBetween: 20 },
+                  640: { slidesPerView: 3, spaceBetween: 20 },
                   1024: { slidesPerView: 4, spaceBetween: 30, loop: true }
                 }}
 
