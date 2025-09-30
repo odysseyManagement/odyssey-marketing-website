@@ -1,6 +1,7 @@
 import { Keyboard, Pagination, Virtual } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import TestimonialV3Data from "../../../src/assets/jsonData/testimonial/TestimonialV3Data.json";
+import SingleTestimonialV3 from "./SingleTestimonialV3";
 import shape14 from "/assets/img/shape/14.png";
 
 interface DataType { sectionClass?: string }
@@ -60,7 +61,7 @@ const TestimonialV3 = ({ sectionClass }: DataType) => {
                 {/* No custom .swiper-wrapper here */}
                 {TestimonialV3Data.map((t, idx) => (
                   <SwiperSlide key={t.id ?? idx} virtualIndex={idx}>
-                   <div>tester</div>
+                    <SingleTestimonialV3 testimonial={t} />
                   </SwiperSlide>
                 ))}
               </Swiper>

@@ -14,42 +14,38 @@ const SingleTestimonialV3 = ({ testimonial }: { testimonial: ModelData }) => {
   const { name, age, height_cm, nationality, image, countryCode } = testimonial;
 
   return (
-    <div>
-      <div
-        className="testimonial-style-three-item relative rounded overflow-hidden"
-        style={{
-          backgroundImage: `url(${image})`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          minHeight: "350px",
-        }}
-      >
-        {/* Info bar fixed at bottom */}
-      </div>
+    <div
+      className="testimonial-style-three-item relative overflow-hidden rounded"
+      style={{
+        backgroundImage: `url(${image})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        minHeight: "350px",
+      }}
+    >
+      {/* optional subtle gradient to ensure text readable */}
+      <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent" />
+
+      {/* Info bar fixed at bottom - now inside the relative container */}
       <div className="absolute bottom-0 left-0 w-full bg-black/70 text-white p-4">
-        <h4 className="font-semibold text-lg">
-          {" "}
+        <h4 className="font-semibold text-lg flex items-center gap-2">
           {countryCode && (
             <ReactCountryFlag
               countryCode={countryCode}
               svg
-              style={{
-                width: "2em",
-                height: "2em",
-                borderRadius: "0.25rem",
-              }}
+              style={{ width: "1.5em", height: "1.5em", borderRadius: "0.25rem" }}
               title={nationality}
             />
-          )}{" "}
-          {name}
+          )}
+          <span>{name}</span>
         </h4>
-        <span className="text-sm block">
-          {age} years old
-          <p>
-            {" "}
+
+        <div className="text-sm mt-1">
+          <div>{age} years old</div>
+          <div>
             {nationality} • {height_cm} cm
-          </p>
-        </span>
+          </div>
+        </div>
       </div>
     </div>
   );
