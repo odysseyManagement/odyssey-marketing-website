@@ -39,9 +39,7 @@ const TestimonialV3 = ({ sectionClass }: DataType) => {
                 spaceBetween={16}
                 speed={500}
                 loop={false}
-                watchSlidesProgress
-                preloadImages={true}
-                lazy={{ checkInView: true }}
+
 
                // autoplay={{ delay: 3000, disableOnInteraction: false, pauseOnMouseEnter: true }}
 
