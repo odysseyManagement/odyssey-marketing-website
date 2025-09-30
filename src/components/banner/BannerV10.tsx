@@ -75,13 +75,11 @@ const BannerV10 = () => {
 
         <div className="container">
           <div className="row align-center">
-            <div className="mt-10 d-block d-lg-none"></div>
-            <div className="mt-100 d-block d-lg-none"></div>
 
             {/* Text Content */}
             <div className="col-xl-8 col-lg-7 pl-60 pl-md-15 pl-xs-15 order-1 order-lg-0">
               <div className="banner-ten-content text-center text-lg-start">
-                <div className="mt-100 d-block d-lg-none"></div>
+                <div className=" d-block d-lg-none"></div>
 
                 <h2>
                   Transforming your <strong>Brand</strong> into your own <strong>Empire</strong>
