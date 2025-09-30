@@ -1,4 +1,3 @@
-import ReactCountryFlag from "react-country-flag";
 
 interface ModelData {
   id?: number;
@@ -29,14 +28,14 @@ const SingleTestimonialV3 = ({ testimonial }: { testimonial: ModelData }) => {
       {/* Info bar fixed at bottom - now inside the relative container */}
       <div className="absolute bottom-0 left-0 w-full bg-black/70 text-white p-4">
         <h4 className="font-semibold text-lg flex items-center gap-2">
-          {countryCode && (
+      {/*     {countryCode && (
             <ReactCountryFlag
               countryCode={countryCode}
               svg
               style={{ width: "1.5em", height: "1.5em", borderRadius: "0.25rem" }}
               title={nationality}
             />
-          )}
+          )} */}
           <span>{name}</span>
         </h4>
 
