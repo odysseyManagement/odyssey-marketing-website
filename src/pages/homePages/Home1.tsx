@@ -8,13 +8,12 @@ import QuickContact from "../../components/contact/QuickContact";
 import FaqV1 from "../../components/faq/FaqV1";
 import FooterV4 from "../../components/footer/FooterV4";
 import HeaderV6 from "../../components/header/HeaderV6";
+import ProcessWrapper from "../../components/process/ProcessWrapper";
 import ServicesV5 from "../../components/services/ServicesV5";
-import ThemeDark from "../../components/switcher/ThemeDark";
 import TestimonialV3 from "../../components/testimonial/TestimonialV3";
+import TestimonialV4 from "../../components/testimonial/TestimonialV4";
 import TrioImageGrid from "../../components/TrioImageColumnsSwiper";
 import WhyChooseV3 from "../../components/whyChoose/WhyChooseV3";
-import MultiSection from "../../components/multi/MultiSection";
-import ProcessWrapper from "../../components/process/ProcessWrapper";
 
 const Home6 = () => {
   return (
@@ -36,6 +35,7 @@ const Home6 = () => {
         {/* <PartnerV2 /> */}
         {/*    <ServicesV2 sectionClass='default-padding-top bg-gray' hasTitle={true} /> */}
         <TestimonialV3 />
+        <TestimonialV4 />
         <BannerV7 />
         <ServicesV5 sectionClass="bg-gray" />
         <WhyChooseV3 />
