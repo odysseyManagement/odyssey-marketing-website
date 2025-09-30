@@ -19331,7 +19331,7 @@ button.Toastify__close-button {
 /* Custom Scroll To Top  */
 .to-top-progress {
 	z-index: 999999;
-	bottom: 100px !important;
+	bottom: 20px !important;
 }
 
 .to-top-progress circle:nth-child(1) {
