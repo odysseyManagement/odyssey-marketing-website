@@ -1,84 +1,76 @@
-import { Autoplay, Keyboard, Navigation, Pagination } from 'swiper/modules';
+import { Autoplay, Keyboard, Pagination, Virtual } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import TestimonialV3Data from "../../../src/assets/jsonData/testimonial/TestimonialV3Data.json";
 import SingleTestimonialV3 from "./SingleTestimonialV3";
 import shape14 from "/assets/img/shape/14.png";
 
-interface DataType {
-    sectionClass?: string
-}
+interface DataType { sectionClass?: string }
 
 const TestimonialV3 = ({ sectionClass }: DataType) => {
-    return (
-        <>
-            <div className={`testimonial-style-three-area default-padding ${sectionClass ? sectionClass : ""}`}>
-                <div className="shape-style-one">
-                    <img className="upDownScrol" src={shape14} alt="Image Not Found" />
-                </div>
-                    <div className="container mt-30 ">     </div>
-                <div className="container">
-                    <div className="testimonial-heading">
-                        <div className="row">
-                            <div className="col-lg-12">
-                                <h2 className="text-large-gradient pb-4 pb-30">
-                                     Talent Showcase
-                                </h2>
-                                <br></br>
-                            </div>
+  const useVirtual = TestimonialV3Data.length > 30;
 
-                        </div>
-                    </div>
-                </div>
-                <div className="container">
-                    <div className="row">
-                        <div className="col-lg-12">
-                            <Swiper className="testimonial-style-three-carousel swiper"
-                                loop={true}
-                                slidesPerView={2}
-                                spaceBetween={30}
- autoplay={{
-                                delay: 3000, // 3s
-                                disableOnInteraction: false, // keeps autoplay after manual navigation
-                                }}
-                                pagination={{
-                                    el: '.swiper-pagination',
-                                    clickable: true,
-                                }}
-                                navigation={{
-                                    nextEl: ".swiper-button-next",
-                                    prevEl: ".swiper-button-prev",
-                                }}
-                                breakpoints={{
-                                    768: {
-                                        slidesPerView: 4,
-                                        spaceBetween: 30
-                                    },
-                                }}
-                                modules={[Pagination, Navigation, Keyboard, Autoplay]}
-                            >
-                                <div className="swiper-wrapper">
-                                    {TestimonialV3Data.map(testimonial =>
-                                        <SwiperSlide key={testimonial.id}>
-                                            <SingleTestimonialV3 testimonial={testimonial} />
-                                        </SwiperSlide>
-                                    )}
-                                </div>
+  return (
+    <>
+      <div className={`testimonial-style-three-area default-padding ${sectionClass ?? ""}`}>
+        <div className="shape-style-one">
+          <img className="upDownScrol" src={shape14} alt="Image Not Found" loading="lazy" />
+        </div>
 
-                                {/* Navigation */}
-                                <div className="testimonial-control">
-                                    <div className="swiper-pagination" />
-                                    <div className="swiper-nav-left">
-                                        <div className="swiper-button-prev" />
-                                        <div className="swiper-button-next" />
-                                    </div>
-                                </div>
-                            </Swiper>
-                        </div>
-                    </div>
-                </div>
+        <div className="container mt-30" />
+        <div className="container">
+          <div className="testimonial-heading">
+            <div className="row">
+              <div className="col-lg-12">
+                <h2 className="text-large-gradient pb-4 pb-30">Talent Showcase</h2>
+                <br />
+              </div>
             </div>
-        </>
-    );
+          </div>
+        </div>
+
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-12">
+              <Swiper
+                className="testimonial-style-three-carousel"
+                style={{ willChange: 'transform' }}
+                // Performance-friendly defaults on phones
+                slidesPerView={3}
+                spaceBetween={16}
+                speed={500}
+                loop={false}
+                watchSlidesProgress
+                preloadImages={false}
+                lazy={{ checkInView: true }}
+
+                autoplay={{ delay: 3000, disableOnInteraction: false, pauseOnMouseEnter: true }}
+
+                // Use built-in UI (no DOM queries)
+                pagination={{ clickable: true }}
+                keyboard={{ enabled: true, onlyInViewport: true }}
+
+                breakpoints={{
+                  640: { slidesPerView: 2, spaceBetween: 20 },
+                  1024: { slidesPerView: 4, spaceBetween: 30, loop: true }
+                }}
+
+                // Smooth with many items
+                virtual={useVirtual}
+                modules={[Pagination, Keyboard, Autoplay, Virtual]}
+              >
+                {/* No custom .swiper-wrapper here */}
+                {TestimonialV3Data.map((t, idx) => (
+                  <SwiperSlide key={t.id ?? idx} virtualIndex={idx}>
+                    <SingleTestimonialV3 testimonial={t} />
+                  </SwiperSlide>
+                ))}
+              </Swiper>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
 };
 
 export default TestimonialV3;

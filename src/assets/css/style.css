@@ -5454,6 +5454,97 @@ ul.list-style-two li:last-child {
 	color: var(--white);
 }
 
+/* Background layers: visible but untouchable */
+.video-section,
+.light-banner-active {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none; /* key line: prevents stealing clicks */
+}
+
+/* The <video> itself */
+.bg-video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none; /* also untouchable */
+  user-select: none;
+}
+
+/* Foreground content */
+.banner-style-ten-area,
+.banner-style-ten-area .container,
+.banner-style-ten-area .row,
+.banner-ten-content {
+  position: relative;
+  z-index: 10;
+}
+/* Make slider the positioning context */
+.talent-slider {
+  position: relative;
+  padding-inline: 32px;           /* breathing room so arrows don't overlap cards */
+  z-index: 10;
+}
+
+/* If you have background video/overlays, make them untouchable */
+.video-section,
+.light-banner-active,
+.bg-video { pointer-events: none; z-index: 0; }
+
+/* Arrows — anchored to the slider, centered vertically */
+.ts-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 48px;
+  height: 48px;
+  display: grid;
+  place-items: center;
+  border-radius: 9999px;
+  background: rgba(0,0,0,0.35);
+  border: 1px solid rgba(255,255,255,0.2);
+  backdrop-filter: blur(6px);
+  z-index: 40;               /* above slides/overlays */
+  pointer-events: auto;
+  cursor: pointer;
+}
+.ts-prev { left: clamp(8px, 2vw, 28px); }
+.ts-next { right: clamp(8px, 2vw, 28px); }
+
+/* Pagination dots bottom-center under the track */
+.ts-dots {
+  position: absolute;
+  left: 50%;
+  bottom: -28px;
+  transform: translateX(-50%);
+  z-index: 30;
+}
+
+/* Mobile: move arrows below the slider so they don't overlap content */
+@media (max-width: 768px) {
+  .talent-slider { padding-inline: 16px; }
+  .ts-arrow {
+    top: auto;
+    bottom: -40px;
+    transform: none;
+  }
+  .ts-prev { left: 16px; }
+  .ts-next { right: 16px; }
+}
+
+/* Make sure your nav arrows sit above everything */
+.swiper-button-prev,
+.swiper-button-next,
+.slick-prev,
+.slick-next,
+.slider-arrow {
+  position: relative;    /* or absolute if your slider expects it */
+  z-index: 20 !important;
+  pointer-events: auto;  /* explicitly clickable */
+}
 
 /* Banner Style Ten */
 .banner-style-ten-area {
