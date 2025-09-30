@@ -1,4 +1,4 @@
-import { Autoplay, Keyboard, Pagination, Virtual } from 'swiper/modules';
+import { Keyboard, Pagination, Virtual } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import TestimonialV3Data from "../../../src/assets/jsonData/testimonial/TestimonialV3Data.json";
 import SingleTestimonialV3 from "./SingleTestimonialV3";
@@ -43,7 +43,7 @@ const TestimonialV3 = ({ sectionClass }: DataType) => {
                 preloadImages={true}
                 lazy={{ checkInView: true }}
 
-                autoplay={{ delay: 3000, disableOnInteraction: false, pauseOnMouseEnter: true }}
+               // autoplay={{ delay: 3000, disableOnInteraction: false, pauseOnMouseEnter: true }}
 
                 // Use built-in UI (no DOM queries)
                 pagination={{ clickable: true }}
@@ -56,7 +56,7 @@ const TestimonialV3 = ({ sectionClass }: DataType) => {
 
                 // Smooth with many items
                 virtual={useVirtual}
-                modules={[Pagination, Keyboard, Autoplay, Virtual]}
+                modules={[Pagination, Keyboard, Virtual]}
               >
                 {/* No custom .swiper-wrapper here */}
                 {TestimonialV3Data.map((t, idx) => (
