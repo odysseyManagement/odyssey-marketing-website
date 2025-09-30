@@ -11,7 +11,7 @@ const TestimonialV3 = ({ sectionClass }: DataType) => {
 
   return (
     <>
-      <div className={`testimonial-style-three-area default-padding ${sectionClass ?? ""}`}>
+      <div className={`testimonial-style-three-area default-padding d-none md-block ${sectionClass ?? ""}`}>
         <div className="shape-style-one">
           <img className="upDownScrol" src={shape14} alt="Image Not Found" loading="lazy" />
         </div>
