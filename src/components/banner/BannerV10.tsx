@@ -114,6 +114,8 @@ const BannerV10 = () => {
       <style jsx>{`
         .video-section {
           position: absolute;
+              margin-top: -108px;
+              margin-bottom: -33px;
           inset: 0;
           z-index: 0;
           overflow: hidden;
