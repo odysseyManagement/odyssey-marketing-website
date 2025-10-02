@@ -1,24 +1,212 @@
 [
-  {"id":1, "name":"Chris", "title":"Chief Executive Officer (CEO)", "group":"Executive", "department":"Executive Leadership", "text":"Bio forthcoming."},
-  {"id":2, "name":"Matt", "title":"Chief Technology Officer (CTO)", "group":"Executive", "department":"Technology", "thumb":"cto.jpg", "thumbLight":"cto@light.jpg", "text":"Bio forthcoming."},
-  {"id":3, "name":"Julian", "title":"Chief Legal Officer (CLO)", "group":"Executive", "department":"Legal", "thumb":"clo.jpg", "thumbLight":"clo@light.jpg", "text":"Bio forthcoming."},
-  {"id":4, "name":"Devonnne", "title":"Chief Financial Officer (CFO)", "group":"Executive", "department":"Finance", "thumb":"cfo.jpg", "thumbLight":"cfo@light.jpg", "text":"Bio forthcoming."},
-  {"id":5, "name":"Darren", "title":"Chief Revenue Officer (CRO)", "group":"Executive", "department":"Revenue", "thumb":"cro.jpg", "thumbLight":"cro@light.jpg", "text":"Bio forthcoming."},
-  {"id":6, "name":"Tim", "title":"Chief Marketing Officer (CMO)", "group":"Executive", "department":"Marketing", "thumb":"cmo.jpg", "thumbLight":"cmo@light.jpg", "text":"Bio forthcoming."},
-  {"id":7, "name":"Adam", "title":"Chief Operating Officer (COO)", "group":"Executive", "department":"Operations", "thumb":"coo.jpg", "thumbLight":"coo@light.jpg", "text":"Bio forthcoming."},
-  {"id":8, "name":"Alex", "title":"Chief Strategy Officer (CSO)", "group":"Executive", "department":"Strategy", "thumb":"cso.jpg", "thumbLight":"cso@light.jpg", "text":"Bio forthcoming."},
-  {"id":9, "name":"Lauren", "title":"Chief Human Resources Officer (CHRO)", "group":"Executive", "department":"People Ops", "thumb":"chro.jpg", "thumbLight":"chro@light.jpg", "text":"Bio forthcoming."},
-  {"id":10, "name":"Sophie", "title":"Chief Creative Officer (CCO)", "group":"Executive", "department":"Creative", "thumb":"cco.jpg", "thumbLight":"cco@light.jpg", "text":"Bio forthcoming."},
+  {
+    "id": 1,
+    "name": "Chris",
+    "title": "Chief Executive Officer (CEO)",
+    "group": "Executive",
+    "department": "Executive Leadership",
+    "text": "Bio forthcoming.",
+    "thumb": "/assets/img/group/suite/chris.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Matt",
+    "title": "Chief Technology Officer (CTO)",
+    "group": "Executive",
+    "department": "Technology",
+    "thumb": "/assets/img/group/suite/matt.JPG",
+    "thumbLight": "/assets/img/group/suite/matt-light.jpg",
+    "text": "Bio forthcoming."
+  },
+  {
+    "id": 3,
+    "name": "Julian",
+    "title": "Chief Legal Officer (CLO)",
+    "group": "Executive",
+    "department": "Legal",
+    "thumb": "https://cdn.vectorstock.com/i/500p/44/01/default-avatar-photo-placeholder-icon-grey-vector-38594401.jpg",
+    "thumbLight": "/assets/img/group/suite/julian-light.jpg",
+    "text": "Bio forthcoming."
+  },
+  {
+    "id": 4,
+    "name": "Devonnne",
+    "title": "Chief Financial Officer (CFO)",
+    "group": "Executive",
+    "department": "Finance",
+    "thumb": "https://cdn.vectorstock.com/i/500p/44/01/default-avatar-photo-placeholder-icon-grey-vector-38594401.jpg",
+    "thumbLight": "/assets/img/group/suite/devonnne-light.jpg",
+    "text": "Bio forthcoming."
+  },
+  {
+    "id": 5,
+    "name": "Darren",
+    "title": "Chief Revenue Officer (CRO)",
+    "group": "Executive",
+    "department": "Revenue",
+    "thumb": "/assets/img/group/suite/darren.jpg",
+    "thumbLight": "/assets/img/group/suite/darren-light.jpg",
+    "text": "Bio forthcoming."
+  },
+  {
+    "id": 6,
+    "name": "Tim",
+    "title": "Chief Marketing Officer (CMO)",
+    "group": "Executive",
+    "department": "Marketing",
+    "thumb": "/assets/img/group/suite/Tim.jpg",
+    "thumbLight": "/assets/img/group/suite/tim-light.jpg",
+    "text": "Bio forthcoming."
+  },
+  {
+    "id": 7,
+    "name": "Adam",
+    "title": "Chief Operating Officer (COO)",
+    "group": "Executive",
+    "department": "Operations",
+    "thumb": "/assets/img/group/suite/adam.jpg",
+    "thumbLight": "/assets/img/group/suite/adam-light.jpg",
+    "text": "Bio forthcoming."
+  },
+  {
+    "id": 8,
+    "name": "Alex",
+    "title": "Chief Strategy Officer (CSO)",
+    "group": "Executive",
+    "department": "Strategy",
+    "thumb": "/assets/img/group/management/alex.jpg",
+    "thumbLight": "/assets/img/group/management/alex-light.jpg",
+    "text": "Bio forthcoming."
+  },
+  {
+    "id": 9,
+    "name": "Lauren",
+    "title": "Chief Human Resources Officer (CHRO)",
+    "group": "Executive",
+    "department": "People Ops",
+    "thumb": "https://cdn.vectorstock.com/i/500p/44/01/default-avatar-photo-placeholder-icon-grey-vector-38594401.jpg",
+    "thumbLight": "/assets/img/group/management/lauren-light.jpg",
+    "text": "Bio forthcoming."
+  },
+  {
+    "id": 10,
+    "name": "Sophie",
+    "title": "Chief Creative Officer (CCO)",
+    "group": "Executive",
+    "department": "Creative",
+    "thumb": "/assets/img/group/management/sophie.jpg",
+    "thumbLight": "/assets/img/group/management/sophie-light.jpg",
+    "text": "Bio forthcoming."
+  },
 
-  {"id":11, "name":"Blnd", "title":"Head of Videography", "group":"Department", "department":"Content", "thumb":"head-videography.jpg", "thumbLight":"head-videography@light.jpg", "text":"Bio forthcoming."},
-  {"id":12, "name":"Ahmed", "title":"Head of International Recruitment", "group":"Department", "department":"Talent", "thumb":"head-intl-recruitment.jpg", "thumbLight":"head-intl-recruitment@light.jpg", "text":"Bio forthcoming."},
-  {"id":13, "name":"Rachel", "title":"Head of Account Management", "group":"Department", "department":"Account Management", "thumb":"head-account-mgmt.jpg", "thumbLight":"head-account-mgmt@light.jpg", "text":"Bio forthcoming."},
-  {"id":14, "name":"Louise", "title":"Head of HR", "group":"Department", "department":"People Ops", "thumb":"head-hr.jpg", "thumbLight":"head-hr@light.jpg", "text":"Bio forthcoming."},
-  {"id":15, "name":"Sophie", "title":"Brand Manager", "group":"Department", "department":"Brand", "thumb":"brand-manager.jpg", "thumbLight":"brand-manager@light.jpg", "text":"Bio forthcoming."},
-  {"id":16, "name":"Ava", "title":"Head of Partnerships", "group":"Department", "department":"Partnerships", "thumb":"head-partnerships.jpg", "thumbLight":"head-partnerships@light.jpg", "text":"Bio forthcoming."},
-  {"id":17, "name":"Olivia", "title":"Head of Model Onboarding", "group":"Department", "department":"Talent Onboarding", "thumb":"head-model-onboarding.jpg", "thumbLight":"head-model-onboarding@light.jpg", "text":"Bio forthcoming."},
-  {"id":18, "name":"Isabella", "title":"Model Acquisition Manager", "group":"Department", "department":"Acquisition", "thumb":"model-acquisition-manager.jpg", "thumbLight":"model-acquisition-manager@light.jpg", "text":"Bio forthcoming."},
-  {"id":19, "name":"Mia", "title":"Model Safeguarding Officer", "group":"Department", "department":"Safeguarding", "thumb":"model-safeguarding.jpg", "thumbLight":"model-safeguarding@light.jpg", "text":"Bio forthcoming."},
-  {"id":20, "name":"Emily", "title":"Mental Health Manager", "group":"Department", "department":"Wellbeing", "thumb":"mental-health-manager.jpg", "thumbLight":"mental-health-manager@light.jpg", "text":"Bio forthcoming."},
-  {"id":21, "name":"Elena", "title":"Head of Model Development", "group":"Department", "department":"Development", "thumb":"head-model-development.jpg", "thumbLight":"head-model-development@light.jpg", "text":"Bio forthcoming."}
+  {
+    "id": 11,
+    "name": "Blnd",
+    "title": "Head of Videography",
+    "group": "Department",
+    "department": "Content",
+    "thumb": "https://cdn.vectorstock.com/i/500p/44/01/default-avatar-photo-placeholder-icon-grey-vector-38594401.jpg",
+    "thumbLight": "head-videography@light.jpg",
+    "text": "Bio forthcoming."
+  },
+  {
+    "id": 12,
+    "name": "Ahmed",
+    "title": "Head of International Recruitment",
+    "group": "Department",
+    "department": "Talent",
+    "thumb": "https://cdn.vectorstock.com/i/500p/44/01/default-avatar-photo-placeholder-icon-grey-vector-38594401.jpg",
+    "thumbLight": "head-intl-recruitment@light.jpg",
+    "text": "Bio forthcoming."
+  },
+  {
+    "id": 13,
+    "name": "Rachel",
+    "title": "Head of Account Management",
+    "group": "Department",
+    "department": "Account Management",
+    "thumb": "/assets/img/group/management/rachel.jpg",
+    "thumbLight": "head-account-mgmt@light.jpg",
+    "text": "Bio forthcoming."
+  },
+  {
+    "id": 14,
+    "name": "Louise",
+    "title": "Head of HR",
+    "group": "Department",
+    "department": "People Ops",
+    "thumb": "/assets/img/group/management/louise.jpg",
+    "thumbLight": "head-hr@light.jpg",
+    "text": "Bio forthcoming."
+  },
+  {
+    "id": 15,
+    "name": "Sophie",
+    "title": "Brand Manager",
+    "group": "Department",
+    "department": "Brand",
+    "thumb": "/assets/img/group/management/sophie.jpg",
+    "thumbLight": "brand-manager@light.jpg",
+    "text": "Bio forthcoming."
+  },
+  {
+    "id": 16,
+    "name": "Ava",
+    "title": "Head of Partnerships",
+    "group": "Department",
+    "department": "Partnerships",
+    "thumb": "/assets/img/group/management/ava.jpg",
+    "thumbLight": "head-partnerships@light.jpg",
+    "text": "Bio forthcoming."
+  },
+  {
+    "id": 17,
+    "name": "Olivia",
+    "title": "Head of Model Onboarding",
+    "group": "Department",
+    "department": "Talent Onboarding",
+    "thumb": "/assets/img/group/management/olivia.jpg",
+    "thumbLight": "head-model-onboarding@light.jpg",
+    "text": "Bio forthcoming."
+  },
+  {
+    "id": 18,
+    "name": "Isabella",
+    "title": "Model Acquisition Manager",
+    "group": "Department",
+    "department": "Acquisition",
+    "thumb": "/assets/img/group/management/isabella.jpg",
+    "thumbLight": "model-acquisition-manager@light.jpg",
+    "text": "Bio forthcoming."
+  },
+  {
+    "id": 19,
+    "name": "Mia",
+    "title": "Model Safeguarding Officer",
+    "group": "Department",
+    "department": "Safeguarding",
+    "thumb": "/assets/img/group/management/mia.jpg",
+    "thumbLight": "model-safeguarding@light.jpg",
+    "text": "Bio forthcoming."
+  },
+  {
+    "id": 20,
+    "name": "Emily",
+    "title": "Mental Health Manager",
+    "group": "Department",
+    "department": "Wellbeing",
+    "thumb": "/assets/img/group/management/emily.jpg",
+    "thumbLight": "mental-health-manager@light.jpg",
+    "text": "Bio forthcoming."
+  },
+  {
+    "id": 21,
+    "name": "Emelia",
+    "title": "Head of Model Development",
+    "group": "Department",
+    "department": "Development",
+    "thumb": "/assets/img/group/management/emelia.jpg",
+    "thumbLight": "head-model-development@light.jpg",
+    "text": "Bio forthcoming."
+  }
 ]

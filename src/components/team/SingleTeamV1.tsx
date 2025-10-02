@@ -1,4 +1,3 @@
-import SocialShareV1 from "../social/SocialShareV1";
 import { Link } from "react-router-dom";
 
 interface DataType {
@@ -13,22 +12,21 @@ const SingleTeamV1 = ({ team }: { team: DataType }) => {
 
     return (
         <>
-            <div className="team-style-one-item">
+            <div className="">
                 <div className="thumb">
                     <Link to={`/team-details/${id}`}>
-                        <img src={`${thumb}`} alt="Image Not Found" width={300} height={315} />
+                        <img src={`${thumb}`} alt="Image Not Found"   className="img-fluid object-fit-cover" width={300} height={315} />
                     </Link>
-                    <div className="social-overlay">
-                        <ul>
-                            <SocialShareV1 />
-                        </ul>
+                  {/*   <div className="social-overlay">
+
                         <div className="icon">
                             <i className="fas fa-plus" />
                         </div>
-                    </div>
+                    </div> */}
                 </div>
                 <div className="info">
-                    <h4><Link to={`/team-details/${id}`}>{name}</Link></h4>
+                  {/*   <h4><Link to={`/team-details/${id}`}>{name}</Link></h4> */}
+                    <h4>{name}</h4>
                     <span>{designation}</span>
                 </div>
             </div>

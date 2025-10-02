@@ -1,6 +1,6 @@
 
-import SplitText from "../animation/SplitText.jsx";
 import TeamV1Data from '../../../src/assets/jsonData/team/TeamV1Data.json';
+import SplitText from "../animation/SplitText.jsx";
 import SingleTeamV1 from './SingleTeamV1';
 
 interface DataType {
@@ -27,8 +27,8 @@ const groupLabel: Record<TeamMember['group'], string> = {
 // Provide placeholder if no image is available
 const withPlaceholder = (member: TeamMember): TeamMember => ({
   ...member,
-  thumb: 'https://cdn.vectorstock.com/i/500p/44/01/default-avatar-photo-placeholder-icon-grey-vector-38594401.jpg',
-  thumbLight: 'https://cdn.vectorstock.com/i/500p/44/01/default-avatar-photo-placeholder-icon-grey-vector-38594401.jpg',
+//  thumb: 'https://cdn.vectorstock.com/i/500p/44/01/default-avatar-photo-placeholder-icon-grey-vector-38594401.jpg',
+
 });
 
 const TeamV1 = ({ sectionClass, hasTitle }: DataType) => {
