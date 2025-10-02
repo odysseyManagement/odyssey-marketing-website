@@ -37,7 +37,7 @@ const SingleTeamV2 = ({ team }: { team: DataType }) => {
                     </div>
                 </div>
                 <div className="info">
-                    <h2><Link to={`/team-details/${id}`}>{name}</Link></h2>
+                    <h2>{name}</h2>
                     <span>{designation}</span>
                 </div>
             </div>

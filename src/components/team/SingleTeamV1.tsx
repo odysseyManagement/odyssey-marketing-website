@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 
 interface DataType {
     id?: number;
@@ -14,9 +13,9 @@ const SingleTeamV1 = ({ team }: { team: DataType }) => {
         <>
             <div className="">
                 <div className="thumb">
-                    <Link to={`/team-details/${id}`}>
+
                         <img src={`${thumb}`} alt="Image Not Found"   className="img-fluid object-fit-cover" width={300} height={315} />
-                    </Link>
+
                   {/*   <div className="social-overlay">
 
                         <div className="icon">
