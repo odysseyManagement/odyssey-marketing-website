@@ -12,7 +12,7 @@ const SinglePartnerV2 = ({ partner }: { partner: DataType }) => {
         <>
             <div className="partner-two-item">
                 <h5>{category}</h5>
-                <img src={`/assets/img/ms/${thumb}`} alt="Image Not Found" width={400} height={200} />
+                <img src={`/assets/img/ms/${thumb}`} alt="Image Not Found" width={400} height={300} />
             </div>
         </>
     );

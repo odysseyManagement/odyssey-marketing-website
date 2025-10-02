@@ -1,9 +1,8 @@
-import { Keyboard } from 'swiper/modules';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import PartnerV2Data from "../../../src/assets/jsonData/partner/PartnerV2Data.json";
 import SplitText from "../animation/SplitText.jsx";
-import SinglePartnerV2 from "./SinglePartnerV2";
-import thumb15 from "/assets/img/ms/22mag-onlyfans-web-promo-mediumSquareAt3X.jpg";
+import disrupt from "/assets/img/ms/65f84a2dc994a55209ad8ce9_vendor2.svg";
+import newyork from "/assets/img/ms/65f84a2dfb15a263461da74d_vendor3.svg";
+import forbes from "/assets/img/ms/forbes.svg";
+import thumb15 from "/assets/img/ms/xing-management-model-agency-china-chengdu-female-mode-modern.jpg";
 
 interface DataType {
     sectionClass?: string
@@ -37,32 +36,27 @@ const PartnerV2 = ({ sectionClass }: DataType) => {
                                 </h2>
                                 <p>
 We specialise in helping models grow their online presence, build loyal fanbases, and maximize earnings through OnlyFans and other social platforms. Our mission is to empower creators with the tools, strategies, and support they need to take their brand to the next level.                                </p>
-                                <Swiper className="brand-two-carousel swiper mt-60"
-                                    loop={true}
-                                    slidesPerView={1}
-                                    spaceBetween={30}
-                                    autoplay={false}
-                                    breakpoints={{
-                                        768: {
-                                            slidesPerView: 2
-                                        },
-                                        992: {
-                                            slidesPerView: 3
-                                        },
-                                        1400: {
-                                            slidesPerView: 3
-                                        },
-                                    }}
-                                    modules={[Keyboard]}
-                                >
-                                    <div className="swiper-wrapper">
-                                        {PartnerV2Data.map(partner =>
-                                            <SwiperSlide key={partner.id}>
-                                                <SinglePartnerV2 partner={partner} />
-                                            </SwiperSlide>
-                                        )}
-                                    </div>
-                                </Swiper>
+
+                                <div className="container my-4">
+                                     <h2 className="h5 text-uppercase text-center text-white mb-3 letter-spacing-1">
+          As Featured In
+        </h2>
+  <div className="row text-center">
+    <div className="col-6 col-md-4 mb-4">
+      <img src={forbes} alt="Forbes" className="img-fluid" style={{ width: "200px" }} />
+    </div>
+    <div className="col-6 col-md-4 mb-4">
+      <img src={newyork} alt="New York" className="img-fluid" style={{ width: "200px" }} />
+    </div>
+    <div className="col-6 col-md-4 mb-4">
+      <img src={disrupt} alt="Disrupt" className="img-fluid" style={{ width: "200px" }} />
+    </div>
+  </div>
+</div>
+
+
+
+
                             </div>
                         </div>
                     </div>
